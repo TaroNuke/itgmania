@@ -72,6 +72,7 @@
 
 #if defined(WIN32)
 #include <windows.h>
+#include "arch/InputHandler/InputHandler_Reflex.h"
 #endif
 
 void ShutdownGame();
@@ -301,6 +302,7 @@ void ShutdownGame()
 	/* Delete INPUTMAN before the other INPUTFILTER handlers, or an input
 	 * driver may try to send a message to INPUTFILTER after we delete it. */
 	SAFE_DELETE( INPUTMAN );
+	SAFE_DELETE( REFLEX );
 	SAFE_DELETE( INPUTQUEUE );
 	SAFE_DELETE( INPUTMAPPER );
 	SAFE_DELETE( INPUTFILTER );
@@ -1047,6 +1049,8 @@ int sm_main(int argc, char* argv[])
 		SCREENMAN->SystemMessage( sMessage );
 
 	CodeDetector::RefreshCacheItems();
+	
+	REFLEX = new InputHandler_Reflex;
 
 	// Run the main loop.
 	GameLoop::RunGameLoop();

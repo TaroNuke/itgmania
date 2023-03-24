@@ -48,6 +48,7 @@ enum InputDevice
 	DEVICE_MIDI,
 	DEVICE_MOUSE,
 	DEVICE_PIUIO,
+	DEVICE_REFLEX,
 	NUM_InputDevice,		// leave this at the end
 	InputDevice_Invalid		// means this is nullptr
 };
