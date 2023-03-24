@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C953EAA-7289-3E29-A3B2-A87DECE8FBF1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\extern\mbedtls\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Code/itgmania/extern/mbedtls/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/extern/mbedtls/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\itgmania\extern\mbedtls\cmake\MbedTLSConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\itgmania\Program\extern\mbedtls\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Code/itgmania/extern/mbedtls/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/extern/mbedtls/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\itgmania\extern\mbedtls\cmake\MbedTLSConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\itgmania\Program\extern\mbedtls\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Code/itgmania/extern/mbedtls/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/extern/mbedtls/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\itgmania\extern\mbedtls\cmake\MbedTLSConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\itgmania\Program\extern\mbedtls\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Code/itgmania/extern/mbedtls/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/extern/mbedtls/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\itgmania\extern\mbedtls\cmake\MbedTLSConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\itgmania\Program\extern\mbedtls\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Code\itgmania\Program\ZERO_CHECK.vcxproj">
+      <Project>{52789D04-36CC-3C0E-BD90-63229496FD29}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\test\benchmark.vcxproj">
+      <Project>{A0B37A1B-64AC-328A-8A8A-EFAC0562A360}</Project>
+      <Name>benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\x509\cert_app.vcxproj">
+      <Project>{4C3D5608-36D7-38E0-B8C9-BFEFD28FB1C3}</Project>
+      <Name>cert_app</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\x509\cert_req.vcxproj">
+      <Project>{9B40E124-4D3F-3971-83A1-7BF0687E4061}</Project>
+      <Name>cert_req</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\x509\cert_write.vcxproj">
+      <Project>{40AAF948-0F44-36B0-9B1F-CC1BB2B10740}</Project>
+      <Name>cert_write</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\x509\crl_app.vcxproj">
+      <Project>{24151789-CA8B-3DE4-B109-DDE2ADBCC9A7}</Project>
+      <Name>crl_app</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\aes\crypt_and_hash.vcxproj">
+      <Project>{9D44A823-5738-31F9-9237-AA09CEF6C66A}</Project>
+      <Name>crypt_and_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\psa\crypto_examples.vcxproj">
+      <Project>{07E57D32-7692-390F-A59A-3CC676090AA1}</Project>
+      <Name>crypto_examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\dh_client.vcxproj">
+      <Project>{060DB98F-6093-33D1-A5BB-4F0F4C02F861}</Project>
+      <Name>dh_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\dh_genprime.vcxproj">
+      <Project>{CC7C56B7-B2CE-38BA-9810-C10F5553A1AB}</Project>
+      <Name>dh_genprime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\dh_server.vcxproj">
+      <Project>{58CD4759-8EC5-3BD6-8B47-40309A3B8744}</Project>
+      <Name>dh_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\dtls_client.vcxproj">
+      <Project>{D420F436-7CCC-3FF0-A0B2-07DD4CA0B56F}</Project>
+      <Name>dtls_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\dtls_server.vcxproj">
+      <Project>{4FA1C1D3-C000-3C56-8621-AE1E2C070F1F}</Project>
+      <Name>dtls_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\ecdh_curve25519.vcxproj">
+      <Project>{BD4CE63D-DD34-347C-9247-F3C0028C074D}</Project>
+      <Name>ecdh_curve25519</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\ecdsa.vcxproj">
+      <Project>{4D0F2A33-7C5A-3314-9E48-7D0865B4E670}</Project>
+      <Name>ecdsa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\random\gen_entropy.vcxproj">
+      <Project>{E0979F42-51F2-38EC-B0EE-D05A9C326D62}</Project>
+      <Name>gen_entropy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\gen_key.vcxproj">
+      <Project>{56AB59B3-0E2F-30C1-B74F-ABFB52FC3D18}</Project>
+      <Name>gen_key</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\random\gen_random_ctr_drbg.vcxproj">
+      <Project>{B06A7D82-A94B-3113-A038-684DF2B1C9AA}</Project>
+      <Name>gen_random_ctr_drbg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\hash\generic_sum.vcxproj">
+      <Project>{391A2939-7FF8-3753-A58D-03A1C5695FA2}</Project>
+      <Name>generic_sum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\hash\hello.vcxproj">
+      <Project>{CAC3D608-890B-3B98-B76D-F11F1F12EBC3}</Project>
+      <Name>hello</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\key_app.vcxproj">
+      <Project>{F2D48C4D-F5E2-3713-AA43-CACC48A4042A}</Project>
+      <Name>key_app</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\key_app_writer.vcxproj">
+      <Project>{8BBB1C6B-7812-3691-95C9-8C4ACB86ADF1}</Project>
+      <Name>key_app_writer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\psa\key_ladder_demo.vcxproj">
+      <Project>{263CDA31-6652-353C-BF5C-8AA6C4DAE509}</Project>
+      <Name>key_ladder_demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\x509\load_roots.vcxproj">
+      <Project>{E0027C3F-2B1B-39B6-9E59-2D92D733F4F0}</Project>
+      <Name>load_roots</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\library\mbedcrypto.vcxproj">
+      <Project>{4B240FB4-EE81-3085-8E33-07F876F43365}</Project>
+      <Name>mbedcrypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\library\mbedtls.vcxproj">
+      <Project>{7490A8DC-8F35-3C28-996A-860955D32FC5}</Project>
+      <Name>mbedtls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.vcxproj">
+      <Project>{D635283B-FB0D-3AAC-A0DC-1485E681F254}</Project>
+      <Name>mbedtls_test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\library\mbedx509.vcxproj">
+      <Project>{3A11086A-20D6-34A6-B07E-A7C2D73917FB}</Project>
+      <Name>mbedx509</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\mini_client.vcxproj">
+      <Project>{FFE85D10-C0C6-318F-9DE1-B79A5470DF30}</Project>
+      <Name>mini_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\mpi_demo.vcxproj">
+      <Project>{01F7E293-E9E6-37ED-AA05-BA7C8CE83737}</Project>
+      <Name>mpi_demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\util\pem2der.vcxproj">
+      <Project>{4C273CB5-36FF-33EF-8122-CC80A8E28D90}</Project>
+      <Name>pem2der</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\pk_decrypt.vcxproj">
+      <Project>{1AE5FB54-3695-3CC9-8150-94514CAE918E}</Project>
+      <Name>pk_decrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\pk_encrypt.vcxproj">
+      <Project>{AEDF3A98-589F-3BF4-971C-6B992E2357D9}</Project>
+      <Name>pk_encrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\pk_sign.vcxproj">
+      <Project>{57D62A0B-6E7D-3EBE-A8AD-136B8BA93D4F}</Project>
+      <Name>pk_sign</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\pk_verify.vcxproj">
+      <Project>{0E0A655A-C028-3708-B161-BCFA89C62E36}</Project>
+      <Name>pk_verify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\psa\psa_constant_names.vcxproj">
+      <Project>{ADCA5768-3D4A-3127-9A31-C0D69DFA4808}</Project>
+      <Name>psa_constant_names</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\test\query_compile_time_config.vcxproj">
+      <Project>{EAC2D60B-04B8-34DD-83AE-256142FC4D12}</Project>
+      <Name>query_compile_time_config</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\x509\req_app.vcxproj">
+      <Project>{1BF57C44-B0C9-3037-B97A-26993EB2C321}</Project>
+      <Name>req_app</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\rsa_decrypt.vcxproj">
+      <Project>{1339490A-971A-3CCC-90A5-B17F5469CB5B}</Project>
+      <Name>rsa_decrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\rsa_encrypt.vcxproj">
+      <Project>{10805E53-D2A1-3230-898A-8A8963BB02D1}</Project>
+      <Name>rsa_encrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\rsa_genkey.vcxproj">
+      <Project>{54A5426F-C80C-3772-A228-3BF1528C6442}</Project>
+      <Name>rsa_genkey</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\rsa_sign.vcxproj">
+      <Project>{8599871E-2DDD-3BEA-B777-05D8031E6FF4}</Project>
+      <Name>rsa_sign</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\rsa_sign_pss.vcxproj">
+      <Project>{6FDA850E-DD0E-331C-A952-5A6DABFFC33C}</Project>
+      <Name>rsa_sign_pss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\rsa_verify.vcxproj">
+      <Project>{ED5436E8-7082-3E5D-B58C-E007CF5344B8}</Project>
+      <Name>rsa_verify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\rsa_verify_pss.vcxproj">
+      <Project>{27E96BB1-B73A-3384-9660-D3C1680444D7}</Project>
+      <Name>rsa_verify_pss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\test\selftest.vcxproj">
+      <Project>{7BF17759-7B06-35A8-96CE-CDA238440B5D}</Project>
+      <Name>selftest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\ssl_client1.vcxproj">
+      <Project>{71357B04-6432-33E5-A04A-AA4C4A8E74D6}</Project>
+      <Name>ssl_client1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\ssl_client2.vcxproj">
+      <Project>{677ED22D-8466-3F74-A845-3522123E8014}</Project>
+      <Name>ssl_client2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\ssl_context_info.vcxproj">
+      <Project>{6D1DE8C6-4BA7-3A4B-9309-6C0822C18DA8}</Project>
+      <Name>ssl_context_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\ssl_fork_server.vcxproj">
+      <Project>{D47D647A-43BE-3DC6-B75C-2C27285C75A6}</Project>
+      <Name>ssl_fork_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\ssl_mail_client.vcxproj">
+      <Project>{CC7C3101-F376-32FB-87E9-56D73B0D1378}</Project>
+      <Name>ssl_mail_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\ssl_pthread_server.vcxproj">
+      <Project>{CE24F39E-F54E-3840-B361-8BB930382CE7}</Project>
+      <Name>ssl_pthread_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\ssl_server.vcxproj">
+      <Project>{3DC66906-9DF4-39B4-A481-865BA4658E5F}</Project>
+      <Name>ssl_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\ssl_server2.vcxproj">
+      <Project>{F2A8DF42-3CD4-38B5-91CE-87CCDAC0D6B8}</Project>
+      <Name>ssl_server2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\util\strerror.vcxproj">
+      <Project>{9E142BEA-7407-33D3-8E75-7BF9E6AB0229}</Project>
+      <Name>strerror</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\test\udp_proxy.vcxproj">
+      <Project>{21126CD4-B096-3E8B-BF51-0744F771D4B2}</Project>
+      <Name>udp_proxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mbedtls\programs\test\zeroize.vcxproj">
+      <Project>{8CC8C7D0-C773-376F-A343-75552B827E8D}</Project>
+      <Name>zeroize</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

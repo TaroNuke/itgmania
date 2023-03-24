@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\adler32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\compress.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\crc32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\deflate.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\gzclose.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\gzlib.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\gzread.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\gzwrite.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\infback.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\inffast.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\inflate.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\inftrees.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\trees.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\uncompr.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\crc32.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\deflate.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\gzguts.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\inffast.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\inffixed.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\inflate.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\inftrees.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\trees.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\zconf.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\zlib.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\extern\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

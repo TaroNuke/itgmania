@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{269F774B-7940-361F-8098-DEEBA90060A2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>tommath</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\itgmania\Program\extern\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tommath.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tommath</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\itgmania\Program\extern\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tommath.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tommath</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\itgmania\Program\extern\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tommath.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">tommath</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\itgmania\Program\extern\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tommath.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">tommath</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Code\itgmania\extern\libtommath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\extern\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Code/itgmania/extern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/extern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\itgmania\extern\CMakeProject-glew.cmake;C:\Code\itgmania\extern\CMakeProject-ixwebsocket.cmake;C:\Code\itgmania\extern\CMakeProject-jpeg.cmake;C:\Code\itgmania\extern\CMakeProject-json.cmake;C:\Code\itgmania\extern\CMakeProject-lua.cmake;C:\Code\itgmania\extern\CMakeProject-mad.cmake;C:\Code\itgmania\extern\CMakeProject-miniz.cmake;C:\Code\itgmania\extern\CMakeProject-ogg.cmake;C:\Code\itgmania\extern\CMakeProject-pcre.cmake;C:\Code\itgmania\extern\CMakeProject-png.cmake;C:\Code\itgmania\extern\CMakeProject-tomcrypt.cmake;C:\Code\itgmania\extern\CMakeProject-tommath.cmake;C:\Code\itgmania\extern\CMakeProject-vorbis.cmake;C:\Code\itgmania\extern\CMakeProject-vorbisfile.cmake;C:\Code\itgmania\extern\CMakeProject-zlib.cmake;C:\Code\itgmania\extern\config.jpeg.in.h;C:\Code\itgmania\extern\config.mad.in.h;C:\Code\itgmania\extern\config.ogg.types.in.h;C:\Code\itgmania\extern\config.pcre.in.h;C:\Code\itgmania\extern\libpng\scripts\pnglibconf.h.prebuilt;C:\Code\itgmania\extern\pcre\pcre.h.generic;C:\Code\itgmania\extern\pcre\pcre_chartables.c.dist;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\itgmania\Program\extern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Code/itgmania/extern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/extern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\itgmania\extern\CMakeProject-glew.cmake;C:\Code\itgmania\extern\CMakeProject-ixwebsocket.cmake;C:\Code\itgmania\extern\CMakeProject-jpeg.cmake;C:\Code\itgmania\extern\CMakeProject-json.cmake;C:\Code\itgmania\extern\CMakeProject-lua.cmake;C:\Code\itgmania\extern\CMakeProject-mad.cmake;C:\Code\itgmania\extern\CMakeProject-miniz.cmake;C:\Code\itgmania\extern\CMakeProject-ogg.cmake;C:\Code\itgmania\extern\CMakeProject-pcre.cmake;C:\Code\itgmania\extern\CMakeProject-png.cmake;C:\Code\itgmania\extern\CMakeProject-tomcrypt.cmake;C:\Code\itgmania\extern\CMakeProject-tommath.cmake;C:\Code\itgmania\extern\CMakeProject-vorbis.cmake;C:\Code\itgmania\extern\CMakeProject-vorbisfile.cmake;C:\Code\itgmania\extern\CMakeProject-zlib.cmake;C:\Code\itgmania\extern\config.jpeg.in.h;C:\Code\itgmania\extern\config.mad.in.h;C:\Code\itgmania\extern\config.ogg.types.in.h;C:\Code\itgmania\extern\config.pcre.in.h;C:\Code\itgmania\extern\libpng\scripts\pnglibconf.h.prebuilt;C:\Code\itgmania\extern\pcre\pcre.h.generic;C:\Code\itgmania\extern\pcre\pcre_chartables.c.dist;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\itgmania\Program\extern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Code/itgmania/extern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/extern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\itgmania\extern\CMakeProject-glew.cmake;C:\Code\itgmania\extern\CMakeProject-ixwebsocket.cmake;C:\Code\itgmania\extern\CMakeProject-jpeg.cmake;C:\Code\itgmania\extern\CMakeProject-json.cmake;C:\Code\itgmania\extern\CMakeProject-lua.cmake;C:\Code\itgmania\extern\CMakeProject-mad.cmake;C:\Code\itgmania\extern\CMakeProject-miniz.cmake;C:\Code\itgmania\extern\CMakeProject-ogg.cmake;C:\Code\itgmania\extern\CMakeProject-pcre.cmake;C:\Code\itgmania\extern\CMakeProject-png.cmake;C:\Code\itgmania\extern\CMakeProject-tomcrypt.cmake;C:\Code\itgmania\extern\CMakeProject-tommath.cmake;C:\Code\itgmania\extern\CMakeProject-vorbis.cmake;C:\Code\itgmania\extern\CMakeProject-vorbisfile.cmake;C:\Code\itgmania\extern\CMakeProject-zlib.cmake;C:\Code\itgmania\extern\config.jpeg.in.h;C:\Code\itgmania\extern\config.mad.in.h;C:\Code\itgmania\extern\config.ogg.types.in.h;C:\Code\itgmania\extern\config.pcre.in.h;C:\Code\itgmania\extern\libpng\scripts\pnglibconf.h.prebuilt;C:\Code\itgmania\extern\pcre\pcre.h.generic;C:\Code\itgmania\extern\pcre\pcre_chartables.c.dist;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\itgmania\Program\extern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Code/itgmania/extern/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/extern/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\itgmania\extern\CMakeProject-glew.cmake;C:\Code\itgmania\extern\CMakeProject-ixwebsocket.cmake;C:\Code\itgmania\extern\CMakeProject-jpeg.cmake;C:\Code\itgmania\extern\CMakeProject-json.cmake;C:\Code\itgmania\extern\CMakeProject-lua.cmake;C:\Code\itgmania\extern\CMakeProject-mad.cmake;C:\Code\itgmania\extern\CMakeProject-miniz.cmake;C:\Code\itgmania\extern\CMakeProject-ogg.cmake;C:\Code\itgmania\extern\CMakeProject-pcre.cmake;C:\Code\itgmania\extern\CMakeProject-png.cmake;C:\Code\itgmania\extern\CMakeProject-tomcrypt.cmake;C:\Code\itgmania\extern\CMakeProject-tommath.cmake;C:\Code\itgmania\extern\CMakeProject-vorbis.cmake;C:\Code\itgmania\extern\CMakeProject-vorbisfile.cmake;C:\Code\itgmania\extern\CMakeProject-zlib.cmake;C:\Code\itgmania\extern\config.jpeg.in.h;C:\Code\itgmania\extern\config.mad.in.h;C:\Code\itgmania\extern\config.ogg.types.in.h;C:\Code\itgmania\extern\config.pcre.in.h;C:\Code\itgmania\extern\libpng\scripts\pnglibconf.h.prebuilt;C:\Code\itgmania\extern\pcre\pcre.h.generic;C:\Code\itgmania\extern\pcre\pcre_chartables.c.dist;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\itgmania\Program\extern\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_cutoffs.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_deprecated.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_2expt.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_abs.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_add.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_add_d.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_addmod.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_and.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_clamp.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_clear.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_clear_multi.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_cmp.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_cmp_d.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_cmp_mag.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_cnt_lsb.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_complement.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_copy.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_count_bits.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_decr.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_div_2.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_div_2d.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_div_3.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_div.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_div_d.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_dr_is_modulus.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_dr_reduce.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_dr_setup.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_error_to_string.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_exch.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_exptmod.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_expt_u32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_exteuclid.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_fread.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_from_sbin.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_from_ubin.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_fwrite.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_gcd.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_get_double.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_get_i32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_get_i64.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_get_l.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_get_ll.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_get_mag_u32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_get_mag_u64.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_get_mag_ul.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_get_mag_ull.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_grow.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_incr.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_copy.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_i32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_i64.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_l.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_ll.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_multi.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_set.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_size.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_u32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_u64.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_ul.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_init_ull.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_invmod.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_iseven.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_isodd.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_is_square.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_kronecker.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_lcm.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_log_u32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_lshd.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_mod_2d.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_mod.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_mod_d.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_montgomery_calc_normalization.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_montgomery_reduce.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_montgomery_setup.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_mul_2.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_mul_2d.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_mul.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_mul_d.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_mulmod.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_neg.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_or.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_pack.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_pack_count.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_prime_fermat.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_prime_frobenius_underwood.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_prime_is_prime.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_prime_miller_rabin.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_prime_next_prime.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_prime_rabin_miller_trials.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_prime_rand.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_prime_strong_lucas_selfridge.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_radix_size.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_radix_smap.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_rand.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_read_radix.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_reduce_2k.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_reduce_2k_l.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_reduce_2k_setup.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_reduce_2k_setup_l.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_reduce.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_reduce_is_2k.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_reduce_is_2k_l.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_reduce_setup.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_root_u32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_rshd.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_sbin_size.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set_double.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set_i32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set_i64.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set_l.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set_ll.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set_u32.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set_u64.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set_ul.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_set_ull.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_shrink.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_signed_rsh.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_sqr.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_sqrmod.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_sqrt.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_sqrtmod_prime.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_sub.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_sub_d.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_submod.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_to_radix.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_to_sbin.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_to_ubin.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_ubin_size.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_unpack.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_xor.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_mp_zero.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_prime_tab.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_add.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_balance_mul.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_exptmod.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_exptmod_fast.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_get_bit.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_invmod_fast.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_invmod_slow.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_karatsuba_mul.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_karatsuba_sqr.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_montgomery_reduce_fast.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_mul_digs.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_mul_digs_fast.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_mul_high_digs.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_mul_high_digs_fast.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_prime_is_divisible.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_rand_jenkins.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_rand_platform.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_reverse.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_sqr.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_sqr_fast.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_sub.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_toom_mul.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libtommath\bn_s_mp_toom_sqr.c" />
+    <ClInclude Include="C:\Code\itgmania\extern\libtommath\tommath_class.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libtommath\tommath_cutoffs.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libtommath\tommath.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libtommath\tommath_private.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libtommath\tommath_superclass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Code\itgmania\Program\ZERO_CHECK.vcxproj">
+      <Project>{52789D04-36CC-3C0E-BD90-63229496FD29}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

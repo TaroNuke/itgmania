@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXBench.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXCancellationRequest.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXConnectionState.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXDNSLookup.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXExponentialBackoff.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXGetFreePort.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXGzipCodec.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXHttp.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXHttpClient.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXHttpServer.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXNetSystem.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSelectInterrupt.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSelectInterruptEvent.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSelectInterruptFactory.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSelectInterruptPipe.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSetThreadName.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocket.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketConnect.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketFactory.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketServer.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketTLSOptions.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXStrCaseCompare.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUdpSocket.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUrlParser.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUuid.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUserAgent.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocket.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketCloseConstants.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketHandshake.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketHttpHeaders.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflate.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflateCodec.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflateOptions.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketProxyServer.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketServer.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketTransport.cpp" />
+    <ClCompile Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketMbedTLS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXBench.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXCancellationRequest.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXConnectionState.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXDNSLookup.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXExponentialBackoff.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXGetFreePort.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXGzipCodec.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXHttp.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXHttpClient.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXHttpServer.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXNetSystem.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXProgressCallback.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSelectInterrupt.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSelectInterruptEvent.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSelectInterruptFactory.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSelectInterruptPipe.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSetThreadName.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocket.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketConnect.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketFactory.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketServer.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketTLSOptions.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXStrCaseCompare.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUdpSocket.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUniquePtr.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUrlParser.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUuid.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUtf8Validator.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXUserAgent.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocket.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketCloseConstants.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketCloseInfo.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketErrorInfo.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketHandshake.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketHandshakeKeyGen.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketHttpHeaders.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketInitResult.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketMessage.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketMessageType.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketOpenInfo.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflate.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflateCodec.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketPerMessageDeflateOptions.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketProxyServer.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketSendInfo.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketServer.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketTransport.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXWebSocketVersion.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\IXWebSocket\ixwebsocket\IXSocketMbedTLS.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\extern\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

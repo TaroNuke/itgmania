@@ -1,0 +1,427 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+ <html xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><meta content="en-us" http-equiv="Content-Language" /><meta content="text/html; charset=utf-16" http-equiv="Content-Type" /><title _locID="ConversionReport0">
+          Migration Report
+        </title><style> 
+                    /* Body style, for the entire document */
+                    body
+                    {
+                        background: #F3F3F4;
+                        color: #1E1E1F;
+                        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    /* Header1 style, used for the main title */
+                    h1
+                    {
+                        padding: 10px 0px 10px 10px;
+                        font-size: 21pt;
+                        background-color: #E2E2E2;
+                        border-bottom: 1px #C1C1C2 solid; 
+                        color: #201F20;
+                        margin: 0;
+                        font-weight: normal;
+                    }
+
+                    /* Header2 style, used for "Overview" and other sections */
+                    h2
+                    {
+                        font-size: 18pt;
+                        font-weight: normal;
+                        padding: 15px 0 5px 0;
+                        margin: 0;
+                    }
+
+                    /* Header3 style, used for sub-sections, such as project name */
+                    h3
+                    {
+                        font-weight: normal;
+                        font-size: 15pt;
+                        margin: 0;
+                        padding: 15px 0 5px 0;
+                        background-color: transparent;
+                    }
+
+                    /* Color all hyperlinks one color */
+                    a
+                    {
+                        color: #1382CE;
+                    }
+
+                    /* Table styles */ 
+                    table
+                    {
+                        border-spacing: 0 0;
+                        border-collapse: collapse;
+                        font-size: 10pt;
+                    }
+
+                    table th
+                    {
+                        background: #E7E7E8;
+                        text-align: left;
+                        text-decoration: none;
+                        font-weight: normal;
+                        padding: 3px 6px 3px 6px;
+                    }
+
+                    table td
+                    {
+                        vertical-align: top;
+                        padding: 3px 6px 5px 5px;
+                        margin: 0px;
+                        border: 1px solid #E7E7E8;
+                        background: #F7F7F8;
+                    }
+
+                    /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+                    .localLink
+                    {
+                        color: #1E1E1F;
+                        background: #EEEEED;
+                        text-decoration: none;
+                    }
+
+                    .localLink:hover
+                    {
+                        color: #1382CE;
+                        background: #FFFF99;
+                        text-decoration: none;
+                    }
+
+                    /* Center text, used in the over views cells that contain message level counts */ 
+                    .textCentered
+                    {
+                        text-align: center;
+                    }
+
+                    /* The message cells in message tables should take up all avaliable space */
+                    .messageCell
+                    {
+                        width: 100%;
+                    }
+
+                    /* Padding around the content after the h1 */ 
+                    #content 
+                    {
+	                    padding: 0px 12px 12px 12px; 
+                    }
+
+                    /* The overview table expands to width, with a max width of 97% */ 
+                    #overview table
+                    {
+                        width: auto;
+                        max-width: 75%; 
+                    }
+
+                    /* The messages tables are always 97% width */
+                    #messages table
+                    {
+                        width: 97%;
+                    }
+
+                    /* All Icons */
+                    .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+                    {
+                        min-width:18px;
+                        min-height:18px; 
+                        background-repeat:no-repeat;
+                        background-position:center;
+                    }
+
+                    /* Success icon encoded */
+                    .IconSuccessEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+                    }
+
+                    /* Information icon encoded */
+                    .IconInfoEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+                    }
+
+                    /* Warning icon encoded */
+                    .IconWarningEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+                    }
+
+                    /* Error icon encoded */
+                    .IconErrorEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+                    }
+                 </style><script type="text/javascript" language="javascript"> 
+          
+            // Startup 
+            // Hook up the the loaded event for the document/window, to linkify the document content
+            var startupFunction = function() { linkifyElement("messages"); };
+            
+            if(window.attachEvent)
+            {
+              window.attachEvent('onload', startupFunction);
+            }
+            else if (window.addEventListener) 
+            {
+              window.addEventListener('load', startupFunction, false);
+            }
+            else 
+            {
+              document.addEventListener('load', startupFunction, false);
+            } 
+            
+            // Toggles the visibility of table rows with the specified name 
+            function toggleTableRowsByName(name)
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  if(!!currentName && currentName.indexOf(name) == 0)
+                  {
+                      var isVisible = allRows[i].style.display == ''; 
+                      isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+                  }
+               }
+            }
+            
+            function scrollToFirstVisibleRow(name) 
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  var isVisible = allRows[i].style.display == ''; 
+                  if(!!currentName && currentName.indexOf(name) == 0 && isVisible)
+                  {
+                     allRows[i].scrollIntoView(true); 
+                     return true; 
+                  }
+               }
+               
+               return false;
+            }
+            
+            // Linkifies the specified text content, replaces candidate links with html links 
+            function linkify(text)
+            {
+                 if(!text || 0 === text.length)
+                 {
+                     return text; 
+                 }
+
+                 // Find http, https and ftp links and replace them with hyper links 
+                 var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&%\$#\=~;\{\}])*/gi;
+                 
+                 return text.replace(urlLink, '<a href="$&">$&</a>') ;
+            }
+            
+            // Linkifies the specified element by ID
+            function linkifyElement(id)
+            {
+                var element = document.getElementById(id);
+                if(!!element)
+                {
+                  element.innerHTML = linkify(element.innerHTML); 
+                }
+            }
+            
+            function ToggleMessageVisibility(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              toggleTableRowsByName("MessageRowClass" + projectName);
+              toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+              toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+            }
+            
+            function ScrollToFirstVisibleMessage(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              // First try the 'Show messages' row
+              if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+              {
+                // Failed to find a visible row for 'Show messages', try an actual message row 
+                scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+              }
+            }
+           </script></head><body><h1 _locID="ConversionReport">
+          Migration Report - StepMania</h1><div id="content"><h2 _locID="OverviewTitle">Overview</h2><div id="overview"><table><tr><th></th><th _locID="ProjectTableHeader">Project</th><th _locID="PathTableHeader">Path</th><th _locID="ErrorsTableHeader">Errors</th><th _locID="WarningsTableHeader">Warnings</th><th _locID="MessagesTableHeader">Messages</th></tr><tr><td class="IconWarningEncoded" /><td><strong><a href="#ITGmania">ITGmania</a></strong></td><td>src\ITGmania.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#ITGmaniaWarning">6</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('ITGmania'); return false;">2</a></td></tr><tr><td class="IconWarningEncoded" /><td><strong><a href="#Solution"><span _locID="OverviewSolutionSpan">Solution</span></a></strong></td><td>StepMania.sln</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#SolutionWarning">1</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('Solution'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#ALL_BUILD">ALL_BUILD</a></strong></td><td>ALL_BUILD.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('ALL_BUILD'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#CMakePredefinedTargets">CMakePredefinedTargets</a></strong></td><td>CMakePredefinedTargets</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#External Libraries">External Libraries</a></strong></td><td>External Libraries</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#glew">glew</a></strong></td><td>extern\glew.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('glew'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#INSTALL">INSTALL</a></strong></td><td>INSTALL.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('INSTALL'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Internal Libraries">Internal Libraries</a></strong></td><td>Internal Libraries</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#ixwebsocket">ixwebsocket</a></strong></td><td>extern\ixwebsocket.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('ixwebsocket'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#jpeg">jpeg</a></strong></td><td>extern\jpeg.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('jpeg'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#jsoncpp">jsoncpp</a></strong></td><td>extern\jsoncpp.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('jsoncpp'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#lua-5.1">lua-5.1</a></strong></td><td>extern\lua-5.1.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('lua-5.1'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#mad">mad</a></strong></td><td>extern\mad.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('mad'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#mapconv">mapconv</a></strong></td><td>src\mapconv.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('mapconv'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#mbedcrypto">mbedcrypto</a></strong></td><td>extern\mbedtls\library\mbedcrypto.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('mbedcrypto'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#mbedtls">mbedtls</a></strong></td><td>extern\mbedtls\library\mbedtls.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('mbedtls'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#mbedx509">mbedx509</a></strong></td><td>extern\mbedtls\library\mbedx509.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('mbedx509'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#miniz">miniz</a></strong></td><td>extern\miniz.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('miniz'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#ogg">ogg</a></strong></td><td>extern\ogg.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('ogg'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#PACKAGE">PACKAGE</a></strong></td><td>PACKAGE.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('PACKAGE'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#pcre">pcre</a></strong></td><td>extern\pcre.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('pcre'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#png">png</a></strong></td><td>extern\png.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('png'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#tomcrypt">tomcrypt</a></strong></td><td>extern\tomcrypt.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('tomcrypt'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#tommath">tommath</a></strong></td><td>extern\tommath.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('tommath'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#vorbis">vorbis</a></strong></td><td>extern\vorbis.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('vorbis'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#vorbisfile">vorbisfile</a></strong></td><td>extern\vorbisfile.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('vorbisfile'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#ZERO_CHECK">ZERO_CHECK</a></strong></td><td>ZERO_CHECK.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('ZERO_CHECK'); return false;">2</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#zlib">zlib</a></strong></td><td>extern\zlib.vcproj</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('zlib'); return false;">2</a></td></tr></table></div><h2 _locID="SolutionAndProjectsTitle">Solution and projects</h2><div id="messages"><a name="ITGmania" /><h3>ITGmania</h3><table><tr id="ITGmaniaHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="WarningRowClassITGmania"><td class="IconWarningEncoded"><a name="ITGmaniaWarning" /></td><td class="messageCell"><strong>src\ITGmania.vcproj:
+        </strong><span>MSB8012: $(TargetName) ('ITGmania') does not match the Linker's OutputFile property value 'C:\Code\itgmania\Program\ITGmania-release-symbols.exe' ('ITGmania-release-symbols') in project configuration 'RelWithDebInfo|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).</span></td></tr><tr name="WarningRowClassITGmania"><td class="IconWarningEncoded"><a name="ITGmaniaWarning" /></td><td class="messageCell"><strong>src\ITGmania.vcproj:
+        </strong><span>MSB8012: $(TargetPath) ('C:\Code\itgmania\Program\ITGmania.exe') does not match the Linker's OutputFile property value 'C:\Code\itgmania\Program\ITGmania-release-symbols.exe' ('C:\Code\itgmania\Program\ITGmania-release-symbols.exe') in project configuration 'RelWithDebInfo|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).</span></td></tr><tr name="WarningRowClassITGmania"><td class="IconWarningEncoded"><a name="ITGmaniaWarning" /></td><td class="messageCell"><strong>src\ITGmania.vcproj:
+        </strong><span>MSB8012: $(TargetName) ('ITGmania') does not match the Linker's OutputFile property value 'C:\Code\itgmania\Program\ITGmania-debug.exe' ('ITGmania-debug') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).</span></td></tr><tr name="WarningRowClassITGmania"><td class="IconWarningEncoded"><a name="ITGmaniaWarning" /></td><td class="messageCell"><strong>src\ITGmania.vcproj:
+        </strong><span>MSB8012: $(TargetPath) ('C:\Code\itgmania\Program\ITGmania.exe') does not match the Linker's OutputFile property value 'C:\Code\itgmania\Program\ITGmania-debug.exe' ('C:\Code\itgmania\Program\ITGmania-debug.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).</span></td></tr><tr name="WarningRowClassITGmania"><td class="IconWarningEncoded"><a name="ITGmaniaWarning" /></td><td class="messageCell"><strong>src\ITGmania.vcproj:
+        </strong><span>MSB8012: $(TargetName) ('ITGmania') does not match the Linker's OutputFile property value 'C:\Code\itgmania\Program\ITGmania-min-size.exe' ('ITGmania-min-size') in project configuration 'MinSizeRel|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).</span></td></tr><tr name="WarningRowClassITGmania"><td class="IconWarningEncoded"><a name="ITGmaniaWarning" /></td><td class="messageCell"><strong>src\ITGmania.vcproj:
+        </strong><span>MSB8012: $(TargetPath) ('C:\Code\itgmania\Program\ITGmania.exe') does not match the Linker's OutputFile property value 'C:\Code\itgmania\Program\ITGmania-min-size.exe' ('C:\Code\itgmania\Program\ITGmania-min-size.exe') in project configuration 'MinSizeRel|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).</span></td></tr><tr name="MessageRowHeaderShowITGmania"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="ITGmaniaMessage" onclick="ToggleMessageVisibility('ITGmania'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassITGmania" style="display: none"><td class="IconInfoEncoded"><a name="ITGmaniaMessage" /></td><td class="messageCell"><strong>src\ITGmania.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\src\ITGmania.vcproj'.</span></td></tr><tr name="MessageRowClassITGmania" style="display: none"><td class="IconInfoEncoded"><a name="ITGmaniaMessage" /></td><td class="messageCell"><strong>src\ITGmania.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\src\ITGmania.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideITGmania"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="ITGmaniaMessage" onclick="ToggleMessageVisibility('ITGmania'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="Solution" /><h3 _locID="ProjectDisplayNameHeader">Solution</h3><table><tr id="SolutionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="WarningRowClassSolution"><td class="IconWarningEncoded"><a name="SolutionWarning" /></td><td class="messageCell"><strong>StepMania.sln:
+        </strong><span>Visual Studio needs to make non-functional changes to this project in order to enable the project to open in released versions of Visual Studio newer than Visual Studio 2010 SP1 without impacting project behavior.</span></td></tr><tr name="MessageRowHeaderShowSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>StepMania.sln:
+        </strong><span>File successfully backed up as C:\Code\itgmania\Program\Backup1\StepMania.sln</span></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>StepMania.sln:
+        </strong><span>Solution migrated successfully</span></td></tr><tr style="display: none" name="MessageRowHeaderHideSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="ALL_BUILD" /><h3>ALL_BUILD</h3><table><tr id="ALL_BUILDHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowALL_BUILD"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="ALL_BUILDMessage" onclick="ToggleMessageVisibility('ALL_BUILD'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassALL_BUILD" style="display: none"><td class="IconInfoEncoded"><a name="ALL_BUILDMessage" /></td><td class="messageCell"><strong>ALL_BUILD.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\ALL_BUILD.vcproj'.</span></td></tr><tr name="MessageRowClassALL_BUILD" style="display: none"><td class="IconInfoEncoded"><a name="ALL_BUILDMessage" /></td><td class="messageCell"><strong>ALL_BUILD.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\ALL_BUILD.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideALL_BUILD"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="ALL_BUILDMessage" onclick="ToggleMessageVisibility('ALL_BUILD'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="CMakePredefinedTargets" /><h3>CMakePredefinedTargets</h3><table><tr id="CMakePredefinedTargetsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">CMakePredefinedTargets logged no messages.
+                  </td></tr></table><a name="External Libraries" /><h3>External Libraries</h3><table><tr id="External LibrariesHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">External Libraries logged no messages.
+                  </td></tr></table><a name="glew" /><h3>glew</h3><table><tr id="glewHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowglew"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="glewMessage" onclick="ToggleMessageVisibility('glew'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassglew" style="display: none"><td class="IconInfoEncoded"><a name="glewMessage" /></td><td class="messageCell"><strong>extern\glew.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\glew.vcproj'.</span></td></tr><tr name="MessageRowClassglew" style="display: none"><td class="IconInfoEncoded"><a name="glewMessage" /></td><td class="messageCell"><strong>extern\glew.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\glew.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideglew"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="glewMessage" onclick="ToggleMessageVisibility('glew'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="INSTALL" /><h3>INSTALL</h3><table><tr id="INSTALLHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowINSTALL"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="INSTALLMessage" onclick="ToggleMessageVisibility('INSTALL'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassINSTALL" style="display: none"><td class="IconInfoEncoded"><a name="INSTALLMessage" /></td><td class="messageCell"><strong>INSTALL.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\INSTALL.vcproj'.</span></td></tr><tr name="MessageRowClassINSTALL" style="display: none"><td class="IconInfoEncoded"><a name="INSTALLMessage" /></td><td class="messageCell"><strong>INSTALL.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\INSTALL.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideINSTALL"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="INSTALLMessage" onclick="ToggleMessageVisibility('INSTALL'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="Internal Libraries" /><h3>Internal Libraries</h3><table><tr id="Internal LibrariesHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">Internal Libraries logged no messages.
+                  </td></tr></table><a name="ixwebsocket" /><h3>ixwebsocket</h3><table><tr id="ixwebsocketHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowixwebsocket"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="ixwebsocketMessage" onclick="ToggleMessageVisibility('ixwebsocket'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassixwebsocket" style="display: none"><td class="IconInfoEncoded"><a name="ixwebsocketMessage" /></td><td class="messageCell"><strong>extern\ixwebsocket.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\ixwebsocket.vcproj'.</span></td></tr><tr name="MessageRowClassixwebsocket" style="display: none"><td class="IconInfoEncoded"><a name="ixwebsocketMessage" /></td><td class="messageCell"><strong>extern\ixwebsocket.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\ixwebsocket.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideixwebsocket"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="ixwebsocketMessage" onclick="ToggleMessageVisibility('ixwebsocket'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="jpeg" /><h3>jpeg</h3><table><tr id="jpegHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowjpeg"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="jpegMessage" onclick="ToggleMessageVisibility('jpeg'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassjpeg" style="display: none"><td class="IconInfoEncoded"><a name="jpegMessage" /></td><td class="messageCell"><strong>extern\jpeg.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\jpeg.vcproj'.</span></td></tr><tr name="MessageRowClassjpeg" style="display: none"><td class="IconInfoEncoded"><a name="jpegMessage" /></td><td class="messageCell"><strong>extern\jpeg.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\jpeg.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidejpeg"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="jpegMessage" onclick="ToggleMessageVisibility('jpeg'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="jsoncpp" /><h3>jsoncpp</h3><table><tr id="jsoncppHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowjsoncpp"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="jsoncppMessage" onclick="ToggleMessageVisibility('jsoncpp'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassjsoncpp" style="display: none"><td class="IconInfoEncoded"><a name="jsoncppMessage" /></td><td class="messageCell"><strong>extern\jsoncpp.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\jsoncpp.vcproj'.</span></td></tr><tr name="MessageRowClassjsoncpp" style="display: none"><td class="IconInfoEncoded"><a name="jsoncppMessage" /></td><td class="messageCell"><strong>extern\jsoncpp.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\jsoncpp.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidejsoncpp"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="jsoncppMessage" onclick="ToggleMessageVisibility('jsoncpp'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="lua-5.1" /><h3>lua-5.1</h3><table><tr id="lua-5.1HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowlua-5.1"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="lua-5.1Message" onclick="ToggleMessageVisibility('lua-5.1'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClasslua-5.1" style="display: none"><td class="IconInfoEncoded"><a name="lua-5.1Message" /></td><td class="messageCell"><strong>extern\lua-5.1.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\lua-5.1.vcproj'.</span></td></tr><tr name="MessageRowClasslua-5.1" style="display: none"><td class="IconInfoEncoded"><a name="lua-5.1Message" /></td><td class="messageCell"><strong>extern\lua-5.1.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\lua-5.1.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidelua-5.1"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="lua-5.1Message" onclick="ToggleMessageVisibility('lua-5.1'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="mad" /><h3>mad</h3><table><tr id="madHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowmad"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="madMessage" onclick="ToggleMessageVisibility('mad'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassmad" style="display: none"><td class="IconInfoEncoded"><a name="madMessage" /></td><td class="messageCell"><strong>extern\mad.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\mad.vcproj'.</span></td></tr><tr name="MessageRowClassmad" style="display: none"><td class="IconInfoEncoded"><a name="madMessage" /></td><td class="messageCell"><strong>extern\mad.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\mad.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidemad"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="madMessage" onclick="ToggleMessageVisibility('mad'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="mapconv" /><h3>mapconv</h3><table><tr id="mapconvHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowmapconv"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="mapconvMessage" onclick="ToggleMessageVisibility('mapconv'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassmapconv" style="display: none"><td class="IconInfoEncoded"><a name="mapconvMessage" /></td><td class="messageCell"><strong>src\mapconv.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\src\mapconv.vcproj'.</span></td></tr><tr name="MessageRowClassmapconv" style="display: none"><td class="IconInfoEncoded"><a name="mapconvMessage" /></td><td class="messageCell"><strong>src\mapconv.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\src\mapconv.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidemapconv"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="mapconvMessage" onclick="ToggleMessageVisibility('mapconv'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="mbedcrypto" /><h3>mbedcrypto</h3><table><tr id="mbedcryptoHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowmbedcrypto"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="mbedcryptoMessage" onclick="ToggleMessageVisibility('mbedcrypto'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassmbedcrypto" style="display: none"><td class="IconInfoEncoded"><a name="mbedcryptoMessage" /></td><td class="messageCell"><strong>extern\mbedtls\library\mbedcrypto.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\mbedtls\library\mbedcrypto.vcproj'.</span></td></tr><tr name="MessageRowClassmbedcrypto" style="display: none"><td class="IconInfoEncoded"><a name="mbedcryptoMessage" /></td><td class="messageCell"><strong>extern\mbedtls\library\mbedcrypto.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\mbedtls\library\mbedcrypto.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidembedcrypto"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="mbedcryptoMessage" onclick="ToggleMessageVisibility('mbedcrypto'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="mbedtls" /><h3>mbedtls</h3><table><tr id="mbedtlsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowmbedtls"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="mbedtlsMessage" onclick="ToggleMessageVisibility('mbedtls'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassmbedtls" style="display: none"><td class="IconInfoEncoded"><a name="mbedtlsMessage" /></td><td class="messageCell"><strong>extern\mbedtls\library\mbedtls.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\mbedtls\library\mbedtls.vcproj'.</span></td></tr><tr name="MessageRowClassmbedtls" style="display: none"><td class="IconInfoEncoded"><a name="mbedtlsMessage" /></td><td class="messageCell"><strong>extern\mbedtls\library\mbedtls.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\mbedtls\library\mbedtls.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidembedtls"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="mbedtlsMessage" onclick="ToggleMessageVisibility('mbedtls'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="mbedx509" /><h3>mbedx509</h3><table><tr id="mbedx509HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowmbedx509"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="mbedx509Message" onclick="ToggleMessageVisibility('mbedx509'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassmbedx509" style="display: none"><td class="IconInfoEncoded"><a name="mbedx509Message" /></td><td class="messageCell"><strong>extern\mbedtls\library\mbedx509.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\mbedtls\library\mbedx509.vcproj'.</span></td></tr><tr name="MessageRowClassmbedx509" style="display: none"><td class="IconInfoEncoded"><a name="mbedx509Message" /></td><td class="messageCell"><strong>extern\mbedtls\library\mbedx509.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\mbedtls\library\mbedx509.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidembedx509"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="mbedx509Message" onclick="ToggleMessageVisibility('mbedx509'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="miniz" /><h3>miniz</h3><table><tr id="minizHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowminiz"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="minizMessage" onclick="ToggleMessageVisibility('miniz'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassminiz" style="display: none"><td class="IconInfoEncoded"><a name="minizMessage" /></td><td class="messageCell"><strong>extern\miniz.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\miniz.vcproj'.</span></td></tr><tr name="MessageRowClassminiz" style="display: none"><td class="IconInfoEncoded"><a name="minizMessage" /></td><td class="messageCell"><strong>extern\miniz.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\miniz.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideminiz"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="minizMessage" onclick="ToggleMessageVisibility('miniz'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="ogg" /><h3>ogg</h3><table><tr id="oggHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowogg"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="oggMessage" onclick="ToggleMessageVisibility('ogg'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassogg" style="display: none"><td class="IconInfoEncoded"><a name="oggMessage" /></td><td class="messageCell"><strong>extern\ogg.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\ogg.vcproj'.</span></td></tr><tr name="MessageRowClassogg" style="display: none"><td class="IconInfoEncoded"><a name="oggMessage" /></td><td class="messageCell"><strong>extern\ogg.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\ogg.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideogg"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="oggMessage" onclick="ToggleMessageVisibility('ogg'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="PACKAGE" /><h3>PACKAGE</h3><table><tr id="PACKAGEHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowPACKAGE"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="PACKAGEMessage" onclick="ToggleMessageVisibility('PACKAGE'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassPACKAGE" style="display: none"><td class="IconInfoEncoded"><a name="PACKAGEMessage" /></td><td class="messageCell"><strong>PACKAGE.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\PACKAGE.vcproj'.</span></td></tr><tr name="MessageRowClassPACKAGE" style="display: none"><td class="IconInfoEncoded"><a name="PACKAGEMessage" /></td><td class="messageCell"><strong>PACKAGE.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\PACKAGE.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidePACKAGE"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="PACKAGEMessage" onclick="ToggleMessageVisibility('PACKAGE'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="pcre" /><h3>pcre</h3><table><tr id="pcreHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowpcre"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="pcreMessage" onclick="ToggleMessageVisibility('pcre'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClasspcre" style="display: none"><td class="IconInfoEncoded"><a name="pcreMessage" /></td><td class="messageCell"><strong>extern\pcre.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\pcre.vcproj'.</span></td></tr><tr name="MessageRowClasspcre" style="display: none"><td class="IconInfoEncoded"><a name="pcreMessage" /></td><td class="messageCell"><strong>extern\pcre.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\pcre.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidepcre"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="pcreMessage" onclick="ToggleMessageVisibility('pcre'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="png" /><h3>png</h3><table><tr id="pngHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowpng"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="pngMessage" onclick="ToggleMessageVisibility('png'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClasspng" style="display: none"><td class="IconInfoEncoded"><a name="pngMessage" /></td><td class="messageCell"><strong>extern\png.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\png.vcproj'.</span></td></tr><tr name="MessageRowClasspng" style="display: none"><td class="IconInfoEncoded"><a name="pngMessage" /></td><td class="messageCell"><strong>extern\png.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\png.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidepng"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="pngMessage" onclick="ToggleMessageVisibility('png'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="tomcrypt" /><h3>tomcrypt</h3><table><tr id="tomcryptHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowtomcrypt"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="tomcryptMessage" onclick="ToggleMessageVisibility('tomcrypt'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClasstomcrypt" style="display: none"><td class="IconInfoEncoded"><a name="tomcryptMessage" /></td><td class="messageCell"><strong>extern\tomcrypt.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\tomcrypt.vcproj'.</span></td></tr><tr name="MessageRowClasstomcrypt" style="display: none"><td class="IconInfoEncoded"><a name="tomcryptMessage" /></td><td class="messageCell"><strong>extern\tomcrypt.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\tomcrypt.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidetomcrypt"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="tomcryptMessage" onclick="ToggleMessageVisibility('tomcrypt'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="tommath" /><h3>tommath</h3><table><tr id="tommathHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowtommath"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="tommathMessage" onclick="ToggleMessageVisibility('tommath'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClasstommath" style="display: none"><td class="IconInfoEncoded"><a name="tommathMessage" /></td><td class="messageCell"><strong>extern\tommath.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\tommath.vcproj'.</span></td></tr><tr name="MessageRowClasstommath" style="display: none"><td class="IconInfoEncoded"><a name="tommathMessage" /></td><td class="messageCell"><strong>extern\tommath.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\tommath.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidetommath"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="tommathMessage" onclick="ToggleMessageVisibility('tommath'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="vorbis" /><h3>vorbis</h3><table><tr id="vorbisHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowvorbis"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="vorbisMessage" onclick="ToggleMessageVisibility('vorbis'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassvorbis" style="display: none"><td class="IconInfoEncoded"><a name="vorbisMessage" /></td><td class="messageCell"><strong>extern\vorbis.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\vorbis.vcproj'.</span></td></tr><tr name="MessageRowClassvorbis" style="display: none"><td class="IconInfoEncoded"><a name="vorbisMessage" /></td><td class="messageCell"><strong>extern\vorbis.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\vorbis.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidevorbis"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="vorbisMessage" onclick="ToggleMessageVisibility('vorbis'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="vorbisfile" /><h3>vorbisfile</h3><table><tr id="vorbisfileHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowvorbisfile"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="vorbisfileMessage" onclick="ToggleMessageVisibility('vorbisfile'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassvorbisfile" style="display: none"><td class="IconInfoEncoded"><a name="vorbisfileMessage" /></td><td class="messageCell"><strong>extern\vorbisfile.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\vorbisfile.vcproj'.</span></td></tr><tr name="MessageRowClassvorbisfile" style="display: none"><td class="IconInfoEncoded"><a name="vorbisfileMessage" /></td><td class="messageCell"><strong>extern\vorbisfile.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\vorbisfile.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidevorbisfile"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="vorbisfileMessage" onclick="ToggleMessageVisibility('vorbisfile'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="ZERO_CHECK" /><h3>ZERO_CHECK</h3><table><tr id="ZERO_CHECKHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowZERO_CHECK"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="ZERO_CHECKMessage" onclick="ToggleMessageVisibility('ZERO_CHECK'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClassZERO_CHECK" style="display: none"><td class="IconInfoEncoded"><a name="ZERO_CHECKMessage" /></td><td class="messageCell"><strong>ZERO_CHECK.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\ZERO_CHECK.vcproj'.</span></td></tr><tr name="MessageRowClassZERO_CHECK" style="display: none"><td class="IconInfoEncoded"><a name="ZERO_CHECKMessage" /></td><td class="messageCell"><strong>ZERO_CHECK.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\ZERO_CHECK.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideZERO_CHECK"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="ZERO_CHECKMessage" onclick="ToggleMessageVisibility('ZERO_CHECK'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table><a name="zlib" /><h3>zlib</h3><table><tr id="zlibHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowzlib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="zlibMessage" onclick="ToggleMessageVisibility('zlib'); return false;">
+          Show 2 additional messages
+        </a></td></tr><tr name="MessageRowClasszlib" style="display: none"><td class="IconInfoEncoded"><a name="zlibMessage" /></td><td class="messageCell"><strong>extern\zlib.vcproj:
+        </strong><span>Converting project file 'C:\Code\itgmania\Program\extern\zlib.vcproj'.</span></td></tr><tr name="MessageRowClasszlib" style="display: none"><td class="IconInfoEncoded"><a name="zlibMessage" /></td><td class="messageCell"><strong>extern\zlib.vcproj:
+        </strong><span>Done converting to new project file 'C:\Code\itgmania\Program\extern\zlib.vcxproj'.</span></td></tr><tr style="display: none" name="MessageRowHeaderHidezlib"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="zlibMessage" onclick="ToggleMessageVisibility('zlib'); return false;">
+          Hide 2 additional messages
+        </a></td></tr></table></div></div></body></html>

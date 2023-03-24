@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\asn1_helpers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\certs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\drivers\hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\drivers\platform_builtin_keys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\drivers\test_driver_aead.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\drivers\test_driver_cipher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\drivers\test_driver_key_management.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\drivers\test_driver_mac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\drivers\test_driver_signature.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\fake_external_rng_for_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\helpers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\psa_crypto_helpers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\psa_exercise_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\tests\src\threading_helpers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\extern\mbedtls\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0B448A17-BAD6-3932-9B27-E8C304CDB839}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

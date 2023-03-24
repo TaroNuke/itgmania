@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\itgmania\extern\mbedtls\programs\pkey\rsa_sign_pss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\extern\mbedtls\programs\pkey\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\asn1_helpers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\certs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\hash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\platform_builtin_keys.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\test_driver_aead.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\test_driver_cipher.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\test_driver_key_management.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\test_driver_mac.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\test_driver_signature.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\fake_external_rng_for_test.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\helpers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\psa_crypto_helpers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\psa_exercise_key.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\random.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Code\itgmania\Program\extern\mbedtls\mbedtls_test.dir\$(Configuration)\threading_helpers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{84CDCA6E-94AB-33B9-8EC0-2DD781758DA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0B448A17-BAD6-3932-9B27-E8C304CDB839}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

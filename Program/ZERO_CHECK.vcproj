@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="ZERO_CHECK"
+	ProjectGUID="{52789D04-36CC-3C0E-BD90-63229496FD29}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			IntermediateDirectory="ZERO_CHECK.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AssemblerListingLocation="$(IntDir)\"
+				ExceptionHandling="0"
+				PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;Debug\&quot;"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			IntermediateDirectory="ZERO_CHECK.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AssemblerListingLocation="$(IntDir)\"
+				ExceptionHandling="0"
+				PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;Release\&quot;"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			IntermediateDirectory="ZERO_CHECK.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AssemblerListingLocation="$(IntDir)\"
+				ExceptionHandling="0"
+				PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			IntermediateDirectory="ZERO_CHECK.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AssemblerListingLocation="$(IntDir)\"
+				ExceptionHandling="0"
+				PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="C:\Code\itgmania\Program\CMakeFiles\generate.stamp.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Code/itgmania/Program/StepMania.sln&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\Code\itgmania\CMake\CMakeMacros.cmake;C:\Code\itgmania\CMake\CPackSetup.cmake;C:\Code\itgmania\CMake\DefineOptions.cmake;C:\Code\itgmania\CMake\Modules\FindIconv.cmake;C:\Code\itgmania\CMake\Modules\Findnasm.cmake;C:\Code\itgmania\CMake\Modules\Findyasm.cmake;C:\Code\itgmania\CMake\SMDefs.cmake;C:\Code\itgmania\CMakeLists.txt;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Code\itgmania\StepmaniaCore.cmake;C:\Code\itgmania\extern\CMakeLists.txt;C:\Code\itgmania\extern\CMakeProject-glew.cmake;C:\Code\itgmania\extern\CMakeProject-ixwebsocket.cmake;C:\Code\itgmania\extern\CMakeProject-jpeg.cmake;C:\Code\itgmania\extern\CMakeProject-json.cmake;C:\Code\itgmania\extern\CMakeProject-lua.cmake;C:\Code\itgmania\extern\CMakeProject-mad.cmake;C:\Code\itgmania\extern\CMakeProject-miniz.cmake;C:\Code\itgmania\extern\CMakeProject-mmmagic.cmake;C:\Code\itgmania\extern\CMakeProject-ogg.cmake;C:\Code\itgmania\extern\CMakeProject-pcre.cmake;C:\Code\itgmania\extern\CMakeProject-png.cmake;C:\Code\itgmania\extern\CMakeProject-tomcrypt.cmake;C:\Code\itgmania\extern\CMakeProject-tommath.cmake;C:\Code\itgmania\extern\CMakeProject-vorbis.cmake;C:\Code\itgmania\extern\CMakeProject-vorbisfile.cmake;C:\Code\itgmania\extern\CMakeProject-zlib.cmake;C:\Code\itgmania\extern\config.jpeg.in.h;C:\Code\itgmania\extern\config.mad.in.h;C:\Code\itgmania\extern\config.ogg.types.in.h;C:\Code\itgmania\extern\config.pcre.in.h;C:\Code\itgmania\extern\libpng\scripts\pnglibconf.h.prebuilt;C:\Code\itgmania\extern\mbedtls\3rdparty\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\cmake\MbedTLSConfig.cmake.in;C:\Code\itgmania\extern\mbedtls\include\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\library\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\aes\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\hash\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\pkey\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\psa\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\random\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\ssl\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\test\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\util\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\x509\CMakeLists.txt;C:\Code\itgmania\extern\pcre\pcre.h.generic;C:\Code\itgmania\extern\pcre\pcre_chartables.c.dist;C:\Code\itgmania\src\CMakeData-actor.cmake;C:\Code\itgmania\src\CMakeData-arch.cmake;C:\Code\itgmania\src\CMakeData-data.cmake;C:\Code\itgmania\src\CMakeData-file-types.cmake;C:\Code\itgmania\src\CMakeData-globals.cmake;C:\Code\itgmania\src\CMakeData-os.cmake;C:\Code\itgmania\src\CMakeData-rage.cmake;C:\Code\itgmania\src\CMakeData-screen.cmake;C:\Code\itgmania\src\CMakeData-singletons.cmake;C:\Code\itgmania\src\CMakeLists.txt;C:\Code\itgmania\src\CMakeProject-mapconv.cmake;C:\Code\itgmania\src\config.in.hpp;C:\Code\itgmania\src\verstub.in.cpp;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBZip2.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in&quot;;"
+					Outputs="C:\Code\itgmania\Program\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\include\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\3rdparty\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\library\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\aes\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\hash\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\psa\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\random\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\test\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\util\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\x509\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\src\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Code/itgmania/Program/StepMania.sln&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\Code\itgmania\CMake\CMakeMacros.cmake;C:\Code\itgmania\CMake\CPackSetup.cmake;C:\Code\itgmania\CMake\DefineOptions.cmake;C:\Code\itgmania\CMake\Modules\FindIconv.cmake;C:\Code\itgmania\CMake\Modules\Findnasm.cmake;C:\Code\itgmania\CMake\Modules\Findyasm.cmake;C:\Code\itgmania\CMake\SMDefs.cmake;C:\Code\itgmania\CMakeLists.txt;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Code\itgmania\StepmaniaCore.cmake;C:\Code\itgmania\extern\CMakeLists.txt;C:\Code\itgmania\extern\CMakeProject-glew.cmake;C:\Code\itgmania\extern\CMakeProject-ixwebsocket.cmake;C:\Code\itgmania\extern\CMakeProject-jpeg.cmake;C:\Code\itgmania\extern\CMakeProject-json.cmake;C:\Code\itgmania\extern\CMakeProject-lua.cmake;C:\Code\itgmania\extern\CMakeProject-mad.cmake;C:\Code\itgmania\extern\CMakeProject-miniz.cmake;C:\Code\itgmania\extern\CMakeProject-mmmagic.cmake;C:\Code\itgmania\extern\CMakeProject-ogg.cmake;C:\Code\itgmania\extern\CMakeProject-pcre.cmake;C:\Code\itgmania\extern\CMakeProject-png.cmake;C:\Code\itgmania\extern\CMakeProject-tomcrypt.cmake;C:\Code\itgmania\extern\CMakeProject-tommath.cmake;C:\Code\itgmania\extern\CMakeProject-vorbis.cmake;C:\Code\itgmania\extern\CMakeProject-vorbisfile.cmake;C:\Code\itgmania\extern\CMakeProject-zlib.cmake;C:\Code\itgmania\extern\config.jpeg.in.h;C:\Code\itgmania\extern\config.mad.in.h;C:\Code\itgmania\extern\config.ogg.types.in.h;C:\Code\itgmania\extern\config.pcre.in.h;C:\Code\itgmania\extern\libpng\scripts\pnglibconf.h.prebuilt;C:\Code\itgmania\extern\mbedtls\3rdparty\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\cmake\MbedTLSConfig.cmake.in;C:\Code\itgmania\extern\mbedtls\include\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\library\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\aes\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\hash\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\pkey\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\psa\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\random\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\ssl\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\test\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\util\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\x509\CMakeLists.txt;C:\Code\itgmania\extern\pcre\pcre.h.generic;C:\Code\itgmania\extern\pcre\pcre_chartables.c.dist;C:\Code\itgmania\src\CMakeData-actor.cmake;C:\Code\itgmania\src\CMakeData-arch.cmake;C:\Code\itgmania\src\CMakeData-data.cmake;C:\Code\itgmania\src\CMakeData-file-types.cmake;C:\Code\itgmania\src\CMakeData-globals.cmake;C:\Code\itgmania\src\CMakeData-os.cmake;C:\Code\itgmania\src\CMakeData-rage.cmake;C:\Code\itgmania\src\CMakeData-screen.cmake;C:\Code\itgmania\src\CMakeData-singletons.cmake;C:\Code\itgmania\src\CMakeLists.txt;C:\Code\itgmania\src\CMakeProject-mapconv.cmake;C:\Code\itgmania\src\config.in.hpp;C:\Code\itgmania\src\verstub.in.cpp;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBZip2.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in&quot;;"
+					Outputs="C:\Code\itgmania\Program\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\include\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\3rdparty\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\library\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\aes\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\hash\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\psa\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\random\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\test\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\util\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\x509\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\src\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Code/itgmania/Program/StepMania.sln&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\Code\itgmania\CMake\CMakeMacros.cmake;C:\Code\itgmania\CMake\CPackSetup.cmake;C:\Code\itgmania\CMake\DefineOptions.cmake;C:\Code\itgmania\CMake\Modules\FindIconv.cmake;C:\Code\itgmania\CMake\Modules\Findnasm.cmake;C:\Code\itgmania\CMake\Modules\Findyasm.cmake;C:\Code\itgmania\CMake\SMDefs.cmake;C:\Code\itgmania\CMakeLists.txt;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Code\itgmania\StepmaniaCore.cmake;C:\Code\itgmania\extern\CMakeLists.txt;C:\Code\itgmania\extern\CMakeProject-glew.cmake;C:\Code\itgmania\extern\CMakeProject-ixwebsocket.cmake;C:\Code\itgmania\extern\CMakeProject-jpeg.cmake;C:\Code\itgmania\extern\CMakeProject-json.cmake;C:\Code\itgmania\extern\CMakeProject-lua.cmake;C:\Code\itgmania\extern\CMakeProject-mad.cmake;C:\Code\itgmania\extern\CMakeProject-miniz.cmake;C:\Code\itgmania\extern\CMakeProject-mmmagic.cmake;C:\Code\itgmania\extern\CMakeProject-ogg.cmake;C:\Code\itgmania\extern\CMakeProject-pcre.cmake;C:\Code\itgmania\extern\CMakeProject-png.cmake;C:\Code\itgmania\extern\CMakeProject-tomcrypt.cmake;C:\Code\itgmania\extern\CMakeProject-tommath.cmake;C:\Code\itgmania\extern\CMakeProject-vorbis.cmake;C:\Code\itgmania\extern\CMakeProject-vorbisfile.cmake;C:\Code\itgmania\extern\CMakeProject-zlib.cmake;C:\Code\itgmania\extern\config.jpeg.in.h;C:\Code\itgmania\extern\config.mad.in.h;C:\Code\itgmania\extern\config.ogg.types.in.h;C:\Code\itgmania\extern\config.pcre.in.h;C:\Code\itgmania\extern\libpng\scripts\pnglibconf.h.prebuilt;C:\Code\itgmania\extern\mbedtls\3rdparty\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\cmake\MbedTLSConfig.cmake.in;C:\Code\itgmania\extern\mbedtls\include\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\library\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\aes\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\hash\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\pkey\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\psa\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\random\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\ssl\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\test\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\util\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\x509\CMakeLists.txt;C:\Code\itgmania\extern\pcre\pcre.h.generic;C:\Code\itgmania\extern\pcre\pcre_chartables.c.dist;C:\Code\itgmania\src\CMakeData-actor.cmake;C:\Code\itgmania\src\CMakeData-arch.cmake;C:\Code\itgmania\src\CMakeData-data.cmake;C:\Code\itgmania\src\CMakeData-file-types.cmake;C:\Code\itgmania\src\CMakeData-globals.cmake;C:\Code\itgmania\src\CMakeData-os.cmake;C:\Code\itgmania\src\CMakeData-rage.cmake;C:\Code\itgmania\src\CMakeData-screen.cmake;C:\Code\itgmania\src\CMakeData-singletons.cmake;C:\Code\itgmania\src\CMakeLists.txt;C:\Code\itgmania\src\CMakeProject-mapconv.cmake;C:\Code\itgmania\src\config.in.hpp;C:\Code\itgmania\src\verstub.in.cpp;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBZip2.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in&quot;;"
+					Outputs="C:\Code\itgmania\Program\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\include\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\3rdparty\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\library\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\aes\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\hash\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\psa\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\random\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\test\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\util\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\x509\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\src\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Code/itgmania/Program/StepMania.sln&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="C:\Code\itgmania\CMake\CMakeMacros.cmake;C:\Code\itgmania\CMake\CPackSetup.cmake;C:\Code\itgmania\CMake\DefineOptions.cmake;C:\Code\itgmania\CMake\Modules\FindIconv.cmake;C:\Code\itgmania\CMake\Modules\Findnasm.cmake;C:\Code\itgmania\CMake\Modules\Findyasm.cmake;C:\Code\itgmania\CMake\SMDefs.cmake;C:\Code\itgmania\CMakeLists.txt;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Code\itgmania\StepmaniaCore.cmake;C:\Code\itgmania\extern\CMakeLists.txt;C:\Code\itgmania\extern\CMakeProject-glew.cmake;C:\Code\itgmania\extern\CMakeProject-ixwebsocket.cmake;C:\Code\itgmania\extern\CMakeProject-jpeg.cmake;C:\Code\itgmania\extern\CMakeProject-json.cmake;C:\Code\itgmania\extern\CMakeProject-lua.cmake;C:\Code\itgmania\extern\CMakeProject-mad.cmake;C:\Code\itgmania\extern\CMakeProject-miniz.cmake;C:\Code\itgmania\extern\CMakeProject-mmmagic.cmake;C:\Code\itgmania\extern\CMakeProject-ogg.cmake;C:\Code\itgmania\extern\CMakeProject-pcre.cmake;C:\Code\itgmania\extern\CMakeProject-png.cmake;C:\Code\itgmania\extern\CMakeProject-tomcrypt.cmake;C:\Code\itgmania\extern\CMakeProject-tommath.cmake;C:\Code\itgmania\extern\CMakeProject-vorbis.cmake;C:\Code\itgmania\extern\CMakeProject-vorbisfile.cmake;C:\Code\itgmania\extern\CMakeProject-zlib.cmake;C:\Code\itgmania\extern\config.jpeg.in.h;C:\Code\itgmania\extern\config.mad.in.h;C:\Code\itgmania\extern\config.ogg.types.in.h;C:\Code\itgmania\extern\config.pcre.in.h;C:\Code\itgmania\extern\libpng\scripts\pnglibconf.h.prebuilt;C:\Code\itgmania\extern\mbedtls\3rdparty\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\cmake\MbedTLSConfig.cmake.in;C:\Code\itgmania\extern\mbedtls\include\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\library\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\aes\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\hash\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\pkey\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\psa\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\random\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\ssl\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\test\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\util\CMakeLists.txt;C:\Code\itgmania\extern\mbedtls\programs\x509\CMakeLists.txt;C:\Code\itgmania\extern\pcre\pcre.h.generic;C:\Code\itgmania\extern\pcre\pcre_chartables.c.dist;C:\Code\itgmania\src\CMakeData-actor.cmake;C:\Code\itgmania\src\CMakeData-arch.cmake;C:\Code\itgmania\src\CMakeData-data.cmake;C:\Code\itgmania\src\CMakeData-file-types.cmake;C:\Code\itgmania\src\CMakeData-globals.cmake;C:\Code\itgmania\src\CMakeData-os.cmake;C:\Code\itgmania\src\CMakeData-rage.cmake;C:\Code\itgmania\src\CMakeData-screen.cmake;C:\Code\itgmania\src\CMakeData-singletons.cmake;C:\Code\itgmania\src\CMakeLists.txt;C:\Code\itgmania\src\CMakeProject-mapconv.cmake;C:\Code\itgmania\src\config.in.hpp;C:\Code\itgmania\src\verstub.in.cpp;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\BasicConfigVersion-SameMajorVersion.cmake.in&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBZip2.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython\Support.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPython3.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in&quot;;"
+					Outputs="C:\Code\itgmania\Program\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\include\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\3rdparty\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\library\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\aes\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\hash\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\pkey\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\psa\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\random\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\ssl\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\test\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\util\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\extern\mbedtls\programs\x509\CMakeFiles\generate.stamp;C:\Code\itgmania\Program\src\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\cjpegalt.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\djpegalt.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jaricom.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcapimin.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcapistd.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcarith.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jccoefct.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jccolor.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcdctmgr.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jchuff.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcinit.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcmainct.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcmarker.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcmaster.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcomapi.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcparam.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcprepct.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jcsample.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jctrans.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdapimin.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdapistd.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdarith.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdatadst.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdcoefct.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdcolor.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jddctmgr.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdhuff.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdinput.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdmainct.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdmarker.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdmaster.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdmerge.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdpostct.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdsample.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jdtrans.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jerror.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jfdctflt.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jfdctfst.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jfdctint.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jidctflt.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jidctfst.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jidctint.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jmemmgr.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jmemnobs.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jquant1.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jquant2.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\jutils.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\rdbmp.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\rdcolmap.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\rdgif.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\rdjpgcom.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\rdppm.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\rdrle.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\rdswitch.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\rdtarga.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\transupp.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\wrbmp.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\wrgif.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\wrjpgcom.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\wrppm.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\wrrle.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libjpeg\wrtarga.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Code\itgmania\Program\extern\libjpeg\jconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\extern\libjpeg\jdct.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libjpeg\jerror.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libjpeg\jinclude.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libjpeg\jmemsys.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libjpeg\jmorecfg.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libjpeg\jpegint.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libjpeg\jpeglib.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libjpeg\jversion.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libjpeg\transupp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\extern\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1F3C7848-DC66-3742-B175-9EC30A7A148A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

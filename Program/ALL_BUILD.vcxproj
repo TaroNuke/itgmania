@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C953EAA-7289-3E29-A3B2-A87DECE8FBF1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Code/itgmania/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\itgmania\CMake\CMakeMacros.cmake;C:\Code\itgmania\CMake\CPackSetup.cmake;C:\Code\itgmania\CMake\DefineOptions.cmake;C:\Code\itgmania\CMake\Modules\FindIconv.cmake;C:\Code\itgmania\CMake\Modules\Findnasm.cmake;C:\Code\itgmania\CMake\Modules\Findyasm.cmake;C:\Code\itgmania\CMake\SMDefs.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Code\itgmania\StepmaniaCore.cmake;C:\Code\itgmania\src\config.in.hpp;C:\Code\itgmania\src\verstub.in.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBZip2.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Code\itgmania\Program\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Code/itgmania/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\itgmania\CMake\CMakeMacros.cmake;C:\Code\itgmania\CMake\CPackSetup.cmake;C:\Code\itgmania\CMake\DefineOptions.cmake;C:\Code\itgmania\CMake\Modules\FindIconv.cmake;C:\Code\itgmania\CMake\Modules\Findnasm.cmake;C:\Code\itgmania\CMake\Modules\Findyasm.cmake;C:\Code\itgmania\CMake\SMDefs.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Code\itgmania\StepmaniaCore.cmake;C:\Code\itgmania\src\config.in.hpp;C:\Code\itgmania\src\verstub.in.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBZip2.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Code\itgmania\Program\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Code/itgmania/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\itgmania\CMake\CMakeMacros.cmake;C:\Code\itgmania\CMake\CPackSetup.cmake;C:\Code\itgmania\CMake\DefineOptions.cmake;C:\Code\itgmania\CMake\Modules\FindIconv.cmake;C:\Code\itgmania\CMake\Modules\Findnasm.cmake;C:\Code\itgmania\CMake\Modules\Findyasm.cmake;C:\Code\itgmania\CMake\SMDefs.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Code\itgmania\StepmaniaCore.cmake;C:\Code\itgmania\src\config.in.hpp;C:\Code\itgmania\src\verstub.in.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBZip2.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Code\itgmania\Program\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Code/itgmania/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/itgmania -BC:/Code/itgmania/Program --check-stamp-file C:/Code/itgmania/Program/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\itgmania\CMake\CMakeMacros.cmake;C:\Code\itgmania\CMake\CPackSetup.cmake;C:\Code\itgmania\CMake\DefineOptions.cmake;C:\Code\itgmania\CMake\Modules\FindIconv.cmake;C:\Code\itgmania\CMake\Modules\Findnasm.cmake;C:\Code\itgmania\CMake\Modules\Findyasm.cmake;C:\Code\itgmania\CMake\SMDefs.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Code\itgmania\Program\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Code\itgmania\StepmaniaCore.cmake;C:\Code\itgmania\src\config.in.hpp;C:\Code\itgmania\src\verstub.in.cpp;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindBZip2.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.24\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Code\itgmania\Program\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Code\itgmania\Program\ZERO_CHECK.vcxproj">
+      <Project>{52789D04-36CC-3C0E-BD90-63229496FD29}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\src\ITGmania.vcxproj">
+      <Project>{A0B5B2A4-FA40-3D3A-A5DF-AEED62E4F6C9}</Project>
+      <Name>ITGmania</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\glew.vcxproj">
+      <Project>{3549E575-1F32-3CB1-827C-FBC2F1A45FC3}</Project>
+      <Name>glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\ixwebsocket.vcxproj">
+      <Project>{3C5DDDE2-6FDB-3682-A9D5-045157764566}</Project>
+      <Name>ixwebsocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\jpeg.vcxproj">
+      <Project>{F01D83E5-DF48-3E77-BC1C-6863395C807E}</Project>
+      <Name>jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\jsoncpp.vcxproj">
+      <Project>{C4C121A1-BF6D-3375-9BBF-CA6A185A070A}</Project>
+      <Name>jsoncpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\lua-5.1.vcxproj">
+      <Project>{8DA766A5-E082-397B-AD6F-7BED37577CF5}</Project>
+      <Name>lua-5.1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\mad.vcxproj">
+      <Project>{1BDE1B7E-340E-356C-9948-8D08DA044F04}</Project>
+      <Name>mad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\src\mapconv.vcxproj">
+      <Project>{478773A0-9A93-3871-A202-B0327B28589E}</Project>
+      <Name>mapconv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\miniz.vcxproj">
+      <Project>{59EC96D6-3E14-3FD5-8D6B-3268F2E239BA}</Project>
+      <Name>miniz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\ogg.vcxproj">
+      <Project>{3C49F172-9CCB-3762-A2F7-B1A0CA1CDA67}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\pcre.vcxproj">
+      <Project>{D0100EB4-D8B5-39E2-B224-8AF850EC3D6D}</Project>
+      <Name>pcre</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\png.vcxproj">
+      <Project>{3AB373AA-A309-3837-99E2-AA2789A316BD}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\tomcrypt.vcxproj">
+      <Project>{5F3003D0-519B-360B-9C7B-FF7573636B9F}</Project>
+      <Name>tomcrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\tommath.vcxproj">
+      <Project>{269F774B-7940-361F-8098-DEEBA90060A2}</Project>
+      <Name>tommath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\vorbis.vcxproj">
+      <Project>{6A14081C-FC49-378D-9023-EE19186041E8}</Project>
+      <Name>vorbis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\vorbisfile.vcxproj">
+      <Project>{3AF55E35-E2BC-34A7-A0E1-0B005527334C}</Project>
+      <Name>vorbisfile</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Code\itgmania\Program\extern\zlib.vcxproj">
+      <Project>{6BAC96DE-6AFB-3A12-9C55-6385D6B91374}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

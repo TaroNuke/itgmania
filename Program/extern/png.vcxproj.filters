@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\png.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngerror.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngget.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngmem.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngpread.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngread.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngrio.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngrtran.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngrutil.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngset.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngtest.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngtrans.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngwio.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngwrite.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngwtran.c" />
+    <ClCompile Include="C:\Code\itgmania\extern\libpng\pngwutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Code\itgmania\extern\libpng\png.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libpng\pngconf.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libpng\pngdebug.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libpng\pnginfo.h" />
+    <ClInclude Include="C:\Code\itgmania\Program\extern\libpng\pnglibconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\extern\libpng\pngpriv.h" />
+    <ClInclude Include="C:\Code\itgmania\extern\libpng\pngstruct.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\extern\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1F3C7848-DC66-3742-B175-9EC30A7A148A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

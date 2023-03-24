@@ -1,0 +1,2685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Code\itgmania\src\GameLoop.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\global.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\SpecialFiles.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\StepMania.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\generated\verstub.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\AnnouncerManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Bookkeeper.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CharacterManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CommandLineActions.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CryptManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\FontManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GameManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GameSoundManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GameState.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\InputFilter.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\InputMapper.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\InputQueue.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LightsManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LuaManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\MemoryCardManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\MessageManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NetworkManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NoteSkinManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\PrefsManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ProfileManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\SongManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\StatsManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ThemeManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\UnlockManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Actor.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ActorFrame.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ActorFrameTexture.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ActorMultiTexture.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ActorMultiVertex.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ActorProxy.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ActorScroller.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ActorSound.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ActorUtil.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\AutoActor.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\BitmapText.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\DynamicActorScroller.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Model.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ModelManager.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ModelTypes.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Quad.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RollingNumbers.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Sprite.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Tween.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ActiveAttackList.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ArrowEffects.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\AttackDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Background.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\BeginnerHelper.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CombinedLifeMeterTug.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\DancingCharacters.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Foreground.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GhostArrowRow.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\HoldJudgment.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Inventory.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LifeMeter.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LifeMeterBar.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LifeMeterBattery.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LifeMeterTime.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LyricDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NoteDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NoteField.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\PercentageDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Player.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ReceptorArrow.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ReceptorArrowRow.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreDisplayAliveTime.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreDisplayBattle.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreDisplayCalories.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreDisplayLifeTime.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreDisplayNormal.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreDisplayOni.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreDisplayPercentage.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreDisplayRave.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\BPMDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ComboGraph.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ControllerStateDisplay.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CourseContentsList.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\DifficultyList.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\DualScrollBar.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\EditMenu.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\FadingBanner.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GradeDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GraphDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GrooveRadar.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\HelpDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\MemoryCardDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\MenuTimer.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ModIcon.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ModIconRow.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\MusicWheel.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\MusicWheelItem.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\OptionRow.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\OptionsCursor.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\OptionsList.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\PaneDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScrollBar.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\SnapDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\TextBanner.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\WheelBase.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\WheelItemBase.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\WheelNotifyIcon.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\WorkoutGraph.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Banner.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\BGAnimation.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\BGAnimationLayer.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\DifficultyIcon.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\MeterDisplay.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\StepsDisplay.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\StreamDisplay.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Transition.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\RageDriver.cpp">
+      <Filter>Arch Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Dialog\Dialog.cpp">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Dialog\DialogDriver.cpp">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Dialog\DialogDriver_Win32.cpp">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\ArchHooks\ArchHooks.cpp">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\ArchHooks\ArchHooksUtil.cpp">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\ArchHooks\ArchHooks_Win32.cpp">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\ArchHooks\ArchHooks_Win32Static.cpp">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_MonkeyKeyboard.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_DirectInput.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_DirectInputHelper.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_MIDI.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_Para.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_Pump.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_RTIO.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_ddrio.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Lights\LightsDriver.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_Export.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_SextetStream.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_SystemMessage.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_Win32Minimaid.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_Win32Serial.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_Win32Parallel.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_PacDrive.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\LoadingWindow\LoadingWindow.cpp">
+      <Filter>Arch Specific\Loading Window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\LoadingWindow\LoadingWindow_Win32.cpp">
+      <Filter>Arch Specific\Loading Window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\LowLevelWindow\LowLevelWindow.cpp">
+      <Filter>Arch Specific\Low Level Window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\LowLevelWindow\LowLevelWindow_Win32.cpp">
+      <Filter>Arch Specific\Low Level Window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\MemoryCard\MemoryCardDriver.cpp">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\MemoryCard\MemoryCardDriverThreaded_Folder.cpp">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\MemoryCard\MemoryCardDriverThreaded_Windows.cpp">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\MovieTexture\MovieTexture.cpp">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\MovieTexture\MovieTexture_FFMpeg.cpp">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\MovieTexture\MovieTexture_Generic.cpp">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\MovieTexture\MovieTexture_Null.cpp">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver_Generic_Software.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver_Null.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Sound\DSoundHelpers.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver_DSound_Software.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver_WaveOut.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver_WDMKS.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\arch\Threads\Threads_Win32.cpp">
+      <Filter>Arch Specific\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Course.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CourseLoaderCRS.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CourseUtil.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CourseWriterCRS.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Trail.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\TrailUtil.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Font.cpp">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\FontCharAliases.cpp">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\FontCharmaps.cpp">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LuaBinding.cpp">
+      <Filter>Data Structures\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LuaExpressionTransform.cpp">
+      <Filter>Data Structures\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LuaReference.cpp">
+      <Filter>Data Structures\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NoteData.cpp">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NoteDataUtil.cpp">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NoteDataWithScoring.cpp">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesLoader.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesLoaderBMS.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesLoaderDWI.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesLoaderJson.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesLoaderKSF.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesLoaderSM.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesLoaderSMA.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesLoaderSSC.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesWriterDWI.cpp">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesWriterJson.cpp">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesWriterSM.cpp">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NotesWriterSSC.cpp">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreKeeper.cpp">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreKeeperNormal.cpp">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreKeeperRave.cpp">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScoreKeeperShared.cpp">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Song.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\SongCacheIndex.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\SongOptions.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\SongPosition.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\SongUtil.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Steps.cpp">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\StepsUtil.cpp">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Style.cpp">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\StyleUtil.cpp">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\AdjustSync.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Attack.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\AutoKeysounds.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\BackgroundUtil.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ImageCache.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Character.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CodeDetector.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CodeSet.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CubicSpline.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Command.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CommonMetrics.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CreateZip.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CryptHelpers.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\DateTime.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Difficulty.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\DisplaySpec.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\EnumHelper.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Game.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GameCommand.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GameConstantsAndTypes.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GameInput.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GameplayAssist.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\GamePreferences.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Grade.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\HighScore.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\JsonUtil.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LocalizedString.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\LyricsLoader.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ModsGroup.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\NoteTypes.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\OptionRowHandler.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\PlayerAI.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\PlayerNumber.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\PlayerOptions.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\PlayerStageStats.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\PlayerState.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Preference.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Profile.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RadarValues.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RandomSample.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\SampleHistory.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenDimensions.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\SoundEffectControl.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\StageStats.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\TimingData.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\TimingSegments.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\TitleSubstitution.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFile.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileBasic.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileDriver.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileDriverDeflate.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileDriverDirect.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileDriverDirectHelpers.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileDriverMemory.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileDriverReadAhead.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileDriverSlice.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileDriverTimeout.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileDriverZip.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileManager.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageFileManager_ReadAhead.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageBitmapTexture.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageDisplay.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageDisplay_Null.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageDisplay_OGL.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageDisplay_OGL_Helpers.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageModelGeometry.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface_Load.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface_Load_BMP.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface_Load_GIF.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface_Load_JPEG.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface_Load_PNG.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface_Load_XPM.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface_Save_BMP.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface_Save_JPEG.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurface_Save_PNG.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurfaceUtils.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurfaceUtils_Dither.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurfaceUtils_Palettize.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSurfaceUtils_Zoom.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageTexture.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageTextureID.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageTextureManager.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageTexturePreloader.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageTextureRenderTarget.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageDisplay_D3D.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageException.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageInput.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageInputDevice.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageLog.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageMath.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageTypes.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageThreads.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageTimer.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSound.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundManager.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundMixBuffer.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundPosMap.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_Chain.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_ChannelSplit.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_Extend.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_FileReader.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_MP3.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_Merge.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_Pan.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_PitchChange.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_PostBuffering.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_Preload.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_Resample_Good.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_SpeedChange.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_ThreadedBuffer.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_Vorbisfile.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundReader_WAV.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageSoundUtil.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageUtil.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageUtil_BackgroundLoader.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageUtil_CharConversions.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageUtil_FileDB.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\RageUtil_WorkerThread.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenGameplay.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenGameplayLesson.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenGameplayNormal.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenGameplayShared.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenGameplaySyncMachine.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptions.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsCourseOverview.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsEditCourse.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsEditProfile.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsExportPackage.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsManageCourses.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsManageEditSteps.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsManageProfiles.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsMaster.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsMasterPrefs.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsMemoryCard.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenOptionsToggleSongs.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Screen.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenAttract.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenBookkeeping.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenContinue.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenDebugOverlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenDemonstration.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenEdit.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenEditMenu.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenEnding.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenEvaluation.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenExit.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenHighScores.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenHowToPlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenInstallOverlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenInstructions.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenJukebox.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenMapControllers.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenMessage.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenMiniMenu.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenNameEntry.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenNameEntryTraditional.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenPlayerOptions.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenProfileLoad.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenProfileSave.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenPrompt.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenRanking.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenReloadSongs.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSandbox.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSaveSync.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSelect.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSelectCharacter.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSelectLanguage.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSelectMaster.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSelectMusic.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSelectProfile.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenServiceAction.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSetTime.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSongOptions.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSplash.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenStatsOverlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSyncOverlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenSystemLayer.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenTestInput.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenTestLights.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenTestSound.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenTextEntry.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenTitleMenu.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenUnlockBrowse.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenUnlockCelebrate.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenUnlockStatus.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\ScreenWithMenuElements.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\AppInstance.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\arch_setup.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\arch_time.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\CommandLine.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\Crash.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\CrashHandlerChild.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\CrashHandlerNetworking.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\DebugInfoHunt.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\DialogUtil.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\DirectXGuids.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\DirectXHelpers.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\ErrorStrings.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\GetFileInformation.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\GotoURL.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\GraphicsWindow.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\MessageWindow.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\RegistryAccess.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\RestartProgram.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\SpecialDirs.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\USB.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\VideoDriverInfo.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\WindowIcon.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\archutils\Win32\WindowsDialogBox.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\CsvFile.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\IniFile.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\MsdFile.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\XmlFile.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\XmlToLua.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\XmlFileUtil.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Code\itgmania\src\Main.cpp" />
+    <ClCompile Include="..\..\src\arch\InputHandler\hidapi.c">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\arch\InputHandler\InputHandler_Reflex.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Code\itgmania\src\generated\config.hpp">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GameLoop.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\global.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ProductInfo.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SpecialFiles.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\StdString.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\StepMania.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\AnnouncerManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Bookkeeper.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CharacterManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CommandLineActions.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CryptManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\FontManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GameManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GameSoundManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GameState.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\InputFilter.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\InputMapper.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\InputQueue.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LightsManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LuaManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\MemoryCardManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\MessageManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NetworkManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NoteSkinManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\PrefsManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ProfileManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SongManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\StatsManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ThemeManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\UnlockManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Actor.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ActorFrame.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ActorFrameTexture.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ActorMultiTexture.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ActorMultiVertex.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ActorProxy.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ActorScroller.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ActorSound.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ActorUtil.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\AutoActor.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\BitmapText.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\DynamicActorScroller.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Model.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ModelManager.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ModelTypes.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Quad.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RollingNumbers.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Sprite.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Tween.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ActiveAttackList.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ArrowEffects.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\AttackDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Background.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\BeginnerHelper.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CombinedLifeMeter.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CombinedLifeMeterTug.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\DancingCharacters.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Foreground.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GhostArrowRow.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\HoldJudgment.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Inventory.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LifeMeter.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LifeMeterBar.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LifeMeterBattery.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LifeMeterTime.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LyricDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NoteDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NoteField.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\PercentageDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Player.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ReceptorArrow.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ReceptorArrowRow.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreDisplayAliveTime.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreDisplayBattle.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreDisplayCalories.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreDisplayLifeTime.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreDisplayNormal.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreDisplayOni.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreDisplayPercentage.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreDisplayRave.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\BPMDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ComboGraph.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ControllerStateDisplay.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CourseContentsList.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\DifficultyList.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\DualScrollBar.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\EditMenu.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\FadingBanner.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GradeDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GraphDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GrooveRadar.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\HelpDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\MemoryCardDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\MenuTimer.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ModIcon.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ModIconRow.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\MusicWheel.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\MusicWheelItem.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\OptionRow.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\OptionsCursor.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\OptionsList.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\PaneDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScrollBar.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SnapDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\TextBanner.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\WheelBase.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\WheelItemBase.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\WheelNotifyIcon.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\WorkoutGraph.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Banner.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\BGAnimation.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\BGAnimationLayer.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\DifficultyIcon.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\MeterDisplay.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\StepsDisplay.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\StreamDisplay.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Transition.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\arch_default.h">
+      <Filter>Arch Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\RageDriver.h">
+      <Filter>Arch Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Dialog\Dialog.h">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Dialog\DialogDriver.h">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Dialog\DialogDriver_Win32.h">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\ArchHooks\ArchHooks.h">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\ArchHooks\ArchHooks_Win32.h">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_MonkeyKeyboard.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_DirectInput.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_DirectInputHelper.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_MIDI.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_Para.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_Pump.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_RTIO.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\InputHandler\InputHandler_Win32_ddrio.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Lights\LightsDriver.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_Export.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_SextetStream.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_SystemMessage.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Lights\SextetUtils.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_Win32Minimaid.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_Win32Parallel.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_Win32Serial.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Lights\LightsDriver_PacDrive.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\LoadingWindow\LoadingWindow.h">
+      <Filter>Arch Specific\Loading Window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\LoadingWindow\LoadingWindow_Win32.h">
+      <Filter>Arch Specific\Loading Window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\LowLevelWindow\LowLevelWindow.h">
+      <Filter>Arch Specific\Low Level Window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\LowLevelWindow\LowLevelWindow_Win32.h">
+      <Filter>Arch Specific\Low Level Window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\MemoryCard\MemoryCardDriver.h">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\MemoryCard\MemoryCardDriver_Null.h">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\MemoryCard\MemoryCardDriverThreaded_Folder.h">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\MemoryCard\MemoryCardDriverThreaded_Windows.h">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\MovieTexture\MovieTexture.h">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\MovieTexture\MovieTexture_FFMpeg.h">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\MovieTexture\MovieTexture_Generic.h">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\MovieTexture\MovieTexture_Null.h">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver_Null.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Sound\DSoundHelpers.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver_DSound_Software.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver_WaveOut.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Sound\RageSoundDriver_WDMKS.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Threads\Threads.h">
+      <Filter>Arch Specific\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\arch\Threads\Threads_Win32.h">
+      <Filter>Arch Specific\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Course.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CourseLoaderCRS.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CourseUtil.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CourseWriterCRS.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Trail.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\TrailUtil.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Font.h">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\FontCharAliases.h">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\FontCharmaps.h">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LuaBinding.h">
+      <Filter>Data Structures\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LuaExpressionTransform.h">
+      <Filter>Data Structures\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LuaReference.h">
+      <Filter>Data Structures\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NoteData.h">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NoteDataUtil.h">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NoteDataWithScoring.h">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesLoader.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesLoaderBMS.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesLoaderDWI.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesLoaderJson.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesLoaderKSF.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesLoaderSM.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesLoaderSMA.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesLoaderSSC.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesWriterDWI.h">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesWriterJson.h">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesWriterSM.h">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NotesWriterSSC.h">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreKeeper.h">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreKeeperNormal.h">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreKeeperRave.h">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScoreKeeperShared.h">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Song.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SongCacheIndex.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SongOptions.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SongPosition.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SongUtil.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Steps.h">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\StepsUtil.h">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Style.h">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\StyleUtil.h">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\AdjustSync.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Attack.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\AutoKeysounds.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\BackgroundUtil.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ImageCache.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Character.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CodeDetector.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CodeSet.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Command.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CommonMetrics.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CreateZip.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CryptHelpers.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CubicSpline.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\DateTime.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\DisplaySpec.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Difficulty.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\EnumHelper.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Game.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GameCommand.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GameConstantsAndTypes.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GameInput.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GameplayAssist.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\GamePreferences.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Grade.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\HighScore.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\InputEventPlus.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\JsonUtil.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LocalizedString.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\LyricsLoader.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ModsGroup.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\NoteTypes.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\OptionRowHandler.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\PlayerAI.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\PlayerNumber.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\PlayerOptions.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\PlayerStageStats.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\PlayerState.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Preference.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Profile.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RadarValues.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RandomSample.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SampleHistory.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenDimensions.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SoundEffectControl.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\SubscriptionManager.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\StageStats.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ThemeMetric.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\TimingData.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\TimingSegments.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\TitleSubstitution.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFile.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileBasic.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileDriver.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileDriverDeflate.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileDriverDirect.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileDriverDirectHelpers.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileDriverMemory.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileDriverReadAhead.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileDriverSlice.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileDriverTimeout.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileDriverZip.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileManager.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageFileManager_ReadAhead.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageBitmapTexture.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageDisplay.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageDisplay_Null.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageDisplay_OGL.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageDisplay_OGL_Helpers.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageModelGeometry.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface_Load.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface_Load_BMP.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface_Load_GIF.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface_Load_JPEG.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface_Load_PNG.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface_Load_XPM.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface_Save_BMP.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface_Save_JPEG.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurface_Save_PNG.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurfaceUtils.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurfaceUtils_Dither.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurfaceUtils_Palettize.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSurfaceUtils_Zoom.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageTexture.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageTextureID.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageTextureManager.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageTexturePreloader.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageTextureRenderTarget.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageDisplay_D3D.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageException.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageInput.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageInputDevice.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageLog.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageMath.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageTypes.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageThreads.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageTimer.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSound.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundManager.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundMixBuffer.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundPosMap.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_Chain.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_ChannelSplit.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_Extend.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_FileReader.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_Filter.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_MP3.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_Merge.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_Pan.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_PitchChange.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_PostBuffering.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_Preload.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_Resample_Good.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_SpeedChange.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_ThreadedBuffer.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_Vorbisfile.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundReader_WAV.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageSoundUtil.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageUtil.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageUtil_AutoPtr.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageUtil_BackgroundLoader.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageUtil_CharConversions.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageUtil_CircularBuffer.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageUtil_FileDB.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\RageUtil_WorkerThread.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenGameplay.h">
+      <Filter>Screens\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenGameplayNormal.h">
+      <Filter>Screens\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenGameplayShared.h">
+      <Filter>Screens\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenGameplaySyncMachine.h">
+      <Filter>Screens\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptions.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsCourseOverview.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsEditCourse.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsEditProfile.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsExportPackage.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsManageCourses.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsManageEditSteps.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsManageProfiles.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsMaster.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsMasterPrefs.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsMemoryCard.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenOptionsToggleSongs.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\Screen.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenAttract.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenBookkeeping.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenContinue.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenDebugOverlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenDemonstration.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenEdit.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenEditMenu.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenEnding.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenEvaluation.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenExit.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenHighScores.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenHowToPlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenInstallOverlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenInstructions.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenJukebox.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenMapControllers.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenMessage.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenMiniMenu.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenNameEntry.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenNameEntryTraditional.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenPlayerOptions.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenProfileLoad.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenProfileSave.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenPrompt.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenRanking.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenReloadSongs.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSandbox.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSaveSync.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSelect.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSelectCharacter.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSelectLanguage.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSelectMaster.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSelectMusic.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSelectProfile.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenServiceAction.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSetTime.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSongOptions.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSplash.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenStatsOverlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSyncOverlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenSystemLayer.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenTestInput.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenTestLights.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenTestSound.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenTextEntry.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenTitleMenu.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenUnlockBrowse.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenUnlockCelebrate.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenUnlockStatus.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\ScreenWithMenuElements.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\AppInstance.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\arch_setup.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\CommandLine.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\Crash.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\CrashHandlerInternal.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\CrashHandlerNetworking.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\DebugInfoHunt.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\DialogUtil.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\DirectXHelpers.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\ErrorStrings.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\GetFileInformation.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\GotoURL.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\GraphicsWindow.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\MessageWindow.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\RegistryAccess.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\RestartProgram.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\SpecialDirs.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\USB.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\VideoDriverInfo.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\WindowIcon.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\WindowsDialogBox.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\archutils\Win32\WindowsResources.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\CsvFile.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\IniFile.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\MsdFile.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\XmlFile.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\XmlToLua.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\itgmania\src\XmlFileUtil.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\arch\InputHandler\hidapi.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\arch\InputHandler\InputHandler_Reflex.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Code\itgmania\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Code\itgmania\src\archutils\Win32\WindowsResources.rc">
+      <Filter>OS Specific</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{B8F508CE-3F70-3E6E-A79F-BE5EEE7915D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Base">
+      <UniqueIdentifier>{CB5F7ECE-33F7-3BD1-BF1E-7204F0B6B8D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Gameplay">
+      <UniqueIdentifier>{DE23D3C3-0837-36FD-A5E1-4452FB16B6CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Gameplay and Menus">
+      <UniqueIdentifier>{E6B77E53-EACA-3314-A8E5-90907B3FBECE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Menus">
+      <UniqueIdentifier>{4BDA67AE-48BB-3638-A7EC-56BC8F1C5A92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific">
+      <UniqueIdentifier>{D0CD93B7-CB31-3803-9D6D-B3C44813F0AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Arch Hooks">
+      <UniqueIdentifier>{0BE59E4C-2425-3FB1-83B3-674CF09D8379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Dialog">
+      <UniqueIdentifier>{AB95DCE6-34CE-34E6-B3BC-EF2539311DCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Input Handler">
+      <UniqueIdentifier>{C01A110B-2CD7-32E8-ADF9-BDA15AE0F9CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Lights">
+      <UniqueIdentifier>{B44A9F56-A966-3052-80CE-DB4E469B3C07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Loading Window">
+      <UniqueIdentifier>{6846789B-3893-3DF8-B382-94B372820A07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Low Level Window">
+      <UniqueIdentifier>{DBBC71BB-1F14-3DD4-B563-D61A25EA9F95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Memory Card">
+      <UniqueIdentifier>{7387B213-F37A-3BDE-9E34-4172019CB0CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Movie Texture">
+      <UniqueIdentifier>{CA596A98-D32B-34A7-8658-CAF4DD1F72AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Sound">
+      <UniqueIdentifier>{7F9D104A-C42C-36F4-900F-9EC57E539E46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Threads">
+      <UniqueIdentifier>{F5333F12-C2ED-3F1B-8091-8A00A41B0DE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures">
+      <UniqueIdentifier>{8E35BB04-B98B-394A-AF56-F98FAC4DAF76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Courses and Trails">
+      <UniqueIdentifier>{1F8AD6EA-838F-3158-BA60-87CFFD6669C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Fonts">
+      <UniqueIdentifier>{EFF3B782-622B-3873-AA41-5A92E651D094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Lua">
+      <UniqueIdentifier>{01ABF3F3-9B01-3AE3-B9B3-6BFB0C6A36D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Misc Objects">
+      <UniqueIdentifier>{B412E10A-0875-3414-990C-C53711964162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Note Data">
+      <UniqueIdentifier>{806D5091-8CF0-382B-ADB9-EF8AB6BF5CA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Notes Loaders">
+      <UniqueIdentifier>{C2897519-1AF4-327D-BA5A-C4C5CF98A083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Notes Writers">
+      <UniqueIdentifier>{755CE656-D126-3DA2-B378-9654C759E3B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Score Keepers">
+      <UniqueIdentifier>{417BA230-1DCF-37F5-8359-77FE4768F8B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Songs">
+      <UniqueIdentifier>{CC8BB4EC-4938-3ED9-82F4-1167C34D76EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Steps and Styles">
+      <UniqueIdentifier>{91EB6AE6-263E-3005-87D6-4AD34F2ED2E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Types">
+      <UniqueIdentifier>{405AAE40-CB16-3CA4-92E7-F483026A0053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global Files">
+      <UniqueIdentifier>{93FC3EE9-BCCF-3126-B1D0-85AE9F5722DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global Singletons">
+      <UniqueIdentifier>{CB49F73B-8CA0-3057-929A-91EF43724858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS Specific">
+      <UniqueIdentifier>{C1ECE17F-F7BA-3F36-925F-723FF1DA14BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage">
+      <UniqueIdentifier>{700F2DCA-290B-3430-9211-4A8F75D361E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\File">
+      <UniqueIdentifier>{DC82737E-BEFB-37BC-B8B2-59BD9C4AAB49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\Graphics">
+      <UniqueIdentifier>{4306ACA6-6800-3846-A46B-FB6CAAD3C8D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\Misc">
+      <UniqueIdentifier>{F521F188-D697-3099-BD31-A9C1930454E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\Sound">
+      <UniqueIdentifier>{76FD3DFB-0D85-34EC-A30C-C2011D9B1D4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\Utils">
+      <UniqueIdentifier>{7228C255-173E-3230-BFB4-85A6393A1AE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens">
+      <UniqueIdentifier>{04637644-B0A2-3A5F-8599-FD4E7B783219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Gameplay">
+      <UniqueIdentifier>{109203C0-C8AF-3900-B3FE-5FDC9B3ACF61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Options">
+      <UniqueIdentifier>{6B7A8618-5746-3941-9ACE-F9FAC5FD1774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Others">
+      <UniqueIdentifier>{F3455285-CD3E-3E15-A31C-4C55D49AE8C7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
