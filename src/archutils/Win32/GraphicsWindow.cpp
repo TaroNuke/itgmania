@@ -261,12 +261,12 @@ RString GraphicsWindow::SetScreenMode( const VideoModeParams &p )
 	return RString();
 }
 
-static int GetWindowStyle( bool bWindowed )
+static int GetWindowStyle( bool bWindowed , bool bWindowIsFullscreenBorderless)
 {
-	if( bWindowed )
+	if( bWindowed && !bWindowIsFullscreenBorderless )
 		return WS_OVERLAPPEDWINDOW | WS_CLIPCHILDREN | WS_CLIPSIBLINGS;
 	else
-		return WS_POPUP;
+		return WS_POPUP | WS_CLIPCHILDREN | WS_CLIPSIBLINGS;
 }
 
 /* Set the final window size, set the window text and icon, and then unhide the
@@ -280,7 +280,7 @@ void GraphicsWindow::CreateGraphicsWindow( const VideoModeParams &p, bool bForce
 
 	if( g_hWndMain == nullptr || bForceRecreateWindow )
 	{
-		int iWindowStyle = GetWindowStyle( p.windowed );
+		int iWindowStyle = GetWindowStyle( p.windowed , p.bWindowIsFullscreenBorderless );
 
 		AppInstance inst;
 		HWND hWnd = CreateWindow( g_sClassName, "app", iWindowStyle,
@@ -331,7 +331,7 @@ void GraphicsWindow::CreateGraphicsWindow( const VideoModeParams &p, bool bForce
 
 	/* The window style may change as a result of switching to or from fullscreen;
 	 * apply it. Don't change the WS_VISIBLE bit. */
-	int iWindowStyle = GetWindowStyle( p.windowed );
+	int iWindowStyle = GetWindowStyle(p.windowed, p.bWindowIsFullscreenBorderless);
 	if( GetWindowLong( g_hWndMain, GWL_STYLE ) & WS_VISIBLE )
 		iWindowStyle |= WS_VISIBLE;
 	SetWindowLong( g_hWndMain, GWL_STYLE, iWindowStyle );
@@ -416,19 +416,6 @@ void GraphicsWindow::Initialize( bool bD3D )
 	// A few things need to be handled differently for D3D.
 	g_bD3D = bD3D;
 
-	//keeping xp on life support -- check for vista+ for dwm
-	if (IsWindowsVistaOrGreater())
-	{
-		hInstanceDwmapi = LoadLibraryA("dwmapi.dll");
-	}
-
-	//if we have dwm, get function pointers to the dll functions
-	if( hInstanceDwmapi != nullptr )
-	{
-		PFN_DwmFlush =					(HRESULT (WINAPI *)(VOID))GetProcAddress( hInstanceDwmapi, "DwmFlush" );
-		PFN_DwmIsCompositionEnabled =	(HRESULT (WINAPI *)(BOOL*))GetProcAddress( hInstanceDwmapi, "DwmIsCompositionEnabled" );
-	}
-
 	AppInstance inst;
 	do
 	{
@@ -508,20 +495,6 @@ void GraphicsWindow::Update()
 	}
 
 	HOOKS->SetHasFocus( g_bHasFocus );
-
-	if (g_CurrentParams.vsync)
-	{
-		//if we can use DWM
-		if( hInstanceDwmapi != nullptr )
-		{
-			BOOL compositeEnabled = true;
-			PFN_DwmIsCompositionEnabled(&compositeEnabled);
-			if (compositeEnabled)
-			{
-				PFN_DwmFlush();
-			}
-		}
-	}
 
 	if( g_bResolutionChanged && DISPLAY != nullptr )
 	{
